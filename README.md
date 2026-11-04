@@ -291,3 +291,12 @@ B 站数据字段要点：
 - 页面显示人气样本量（stars、评分 + 评价数），不只给一个星级图标；缺失时明示「未获取」。
 - 付费数字分两个口径写：总盘 50 条与新增批次 13 条，不要用新增批次替换总盘；报告里同时保留两个口径。
 - 来源计数、原始线索、去重资源、全条目归档、GitHub 归档是不同口径；出现 41/34、129/84、51/48、5/2 这类差异时在正文标注范围，不当作矛盾。
+
+## 发布（GitHub Pages）
+
+- 线上地址：<https://qyuejinzhao.github.io/UEGameRes/>
+- 仓库：<https://github.com/QYueJinZhao/UEGameRes>
+- Pages 源：`main` 分支根目录（Deploy from a branch，`build_type=legacy`）；不使用 GitHub Actions。
+- 页面与分片全部使用相对路径（`data/*.js`、`assets/img/...`），在 `/UEGameRes/` 子路径下可直接工作，不依赖站点根路径。
+- 更新流程：改数据跑 `node scripts/build.js`，改模板跑 `node scripts/build.js --page`；提交并 push 到 `main` 后 Pages 自动重建。
+- 在线验证：`curl.exe -s -o NUL -w "%{http_code} %{content_type}" https://qyuejinzhao.github.io/UEGameRes/`。
