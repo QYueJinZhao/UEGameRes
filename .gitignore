@@ -1,0 +1,10 @@
+# 本地临时文件与运行产物
+.screenshots/
+node_modules/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 复核运行产物（可由 scripts/recheck.js 重新生成）
+data/recheck-report.json

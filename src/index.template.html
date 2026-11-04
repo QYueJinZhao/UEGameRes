@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UE 资源与工具索引</title>
+  <style>/*__STYLES__*/</style>
+</head>
+<body>
+  <div id="appError" class="app-error" hidden></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand-row">
+        <div>
+          <h1 id="siteTitle">UE 资源与工具索引</h1>
+          <p class="sub" id="tagline"></p>
+        </div>
+        <div class="hero-right">
+          <span class="meta-pill" id="dataVersion">数据更新于 —</span>
+          <span class="meta-pill" id="fetchPill"></span>
+        </div>
+      </div>
+      <div class="stats" id="stats"></div>
+      <div class="cat-overview" id="catOverview"></div>
+    </div>
+  </header>
+
+  <button id="navToggle" class="nav-toggle" aria-controls="sidebar" aria-expanded="false">
+    菜单 · <span id="navCurrent">资源</span>
+  </button>
+  <div id="navBackdrop" class="nav-backdrop" hidden></div>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="nav-head"><b>口径菜单</b><span>条数随数据自动重算</span></div>
+      <nav id="nav"></nav>
+      <div id="sideMeta" class="nav-hint"></div>
+    </aside>
+
+    <main class="main">
+      <div class="view-head">
+        <div>
+          <h2 id="viewTitle"></h2>
+          <p id="viewStats" class="view-sub"></p>
+        </div>
+        <a id="viewPermalink" class="btn btn-ghost" href="#/resources/free">复制本视图链接</a>
+      </div>
+
+      <div class="view-mode-bar" id="viewModeBar">
+        <span class="view-mode-label">视图</span>
+        <div class="view-switch" role="group" aria-label="视图模式">
+          <button type="button" data-mode="grid" aria-pressed="true">▦ 缩略图</button>
+          <button type="button" data-mode="list" aria-pressed="false">☰ 列表</button>
+        </div>
+        <span class="view-mode-hint" id="viewModeHint"></span>
+      </div>
+
+      <div id="toolbar" class="toolbar"></div>
+      <div id="view" class="view"></div>
+      <p id="status" class="status"></p>
+
+      <section class="panel" id="sourcesPanel">
+        <h3>来源与许可</h3>
+        <div id="sourceGrid" class="source-grid"></div>
+        <p id="integrity" class="integrity"></p>
+      </section>
+
+      <section class="panel" id="maintenancePanel">
+        <h3>维护流程</h3>
+        <ol id="updateSteps" class="update-steps"></ol>
+        <div id="buildInfo" class="build-info"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data/core.js"></script>
+  <script>/*__APP__*/</script>
+</body>
+</html>

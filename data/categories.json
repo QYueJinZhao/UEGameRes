@@ -1,0 +1,120 @@
+{
+  "resource": [
+    {
+      "id": "env",
+      "name": "环境 / 场景",
+      "desc": "森林、城市、室内、地形与扫描场景，能直接搭关卡的资产",
+      "subcategories": ["森林与自然", "城市与工业", "室内与地下", "地形与洞穴", "场景扫描", "载具与船舶", "风格化与科幻"]
+    },
+    {
+      "id": "material",
+      "name": "材质与贴图",
+      "desc": "PBR 贴图、地表路面、建筑墙面、木材石材、织物、贴花与特殊表面",
+      "subcategories": ["PBR 材质", "石材与砖瓦", "地表与路面", "木材与地板", "建筑与墙面", "织物与布艺", "金属", "贴花与图案", "动画材质", "特殊表面"]
+    },
+    {
+      "id": "prop",
+      "name": "道具与模型",
+      "desc": "家具、武器、载具、植被岩石、雕像器物与工业/军事道具",
+      "subcategories": ["家具", "武器", "载具", "植被与岩石", "雕像与器物", "道具杂物", "工业与军事"]
+    },
+    {
+      "id": "character",
+      "name": "角色与动画",
+      "desc": "角色模型、骨骼与动画（含 CC0 扫描角色与 Mixamo 类动画）",
+      "subcategories": ["角色模型", "角色动画"]
+    },
+    {
+      "id": "vfx",
+      "name": "特效（Niagara / VFX）",
+      "desc": "Niagara 粒子、爆炸烟雾、魔法能量与光效遮罩",
+      "subcategories": ["Niagara 粒子", "爆炸与烟雾", "魔法与能量", "光效与遮罩"]
+    },
+    {
+      "id": "audio",
+      "name": "音频",
+      "desc": "音乐、音效与 UI 音效",
+      "subcategories": ["音效", "音乐", "UI 音效"]
+    },
+    {
+      "id": "ui",
+      "name": "UI、字体与图标",
+      "desc": "UMG 套件、HUD 控件、图标与鼠标光标",
+      "subcategories": ["UI 套件", "HUD 与控件", "图标", "光标"]
+    },
+    {
+      "id": "blueprint",
+      "name": "蓝图 / 示例项目 / 模板",
+      "desc": "Epic 官方示例、GitHub 开源示例与可直接改的商业游戏模板",
+      "subcategories": ["示例项目", "游戏模板"]
+    },
+    {
+      "id": "other",
+      "name": "其他（HDRI / 天空 / 后处理）",
+      "desc": "HDRI 天空、天空盒与不便归类的资产",
+      "subcategories": ["HDRI 天空", "天空盒"]
+    }
+  ],
+  "tool": [
+    {
+      "id": "editor",
+      "name": "编辑器效率",
+      "desc": "编辑器扩展、Editor Utility Widget、工作流增强",
+      "subcategories": ["编辑器扩展"]
+    },
+    {
+      "id": "blueprint-script",
+      "name": "蓝图 / 脚本",
+      "desc": "蓝图节点、脚本扩展、事件系统、网络与 OSC",
+      "subcategories": ["蓝图与脚本"]
+    },
+    {
+      "id": "art-level",
+      "name": "美术与关卡",
+      "desc": "建模、摆放、地形、体素与关卡搭建",
+      "subcategories": ["美术与关卡"]
+    },
+    {
+      "id": "animation",
+      "name": "动画",
+      "desc": "动画压缩、程序化动画、相机与格式导入",
+      "subcategories": ["动画"]
+    },
+    {
+      "id": "audio-tool",
+      "name": "音频",
+      "desc": "音频导入、分析与运行时播放",
+      "subcategories": ["音频"]
+    },
+    {
+      "id": "perf-debug",
+      "name": "性能与调试",
+      "desc": "性能分析、调试、PSO 缓存与网络排查",
+      "subcategories": ["性能与调试"]
+    },
+    {
+      "id": "build",
+      "name": "打包与工程管理",
+      "desc": "打包、插件构建、自动保存与自动化构建",
+      "subcategories": ["打包与工程"]
+    },
+    {
+      "id": "vcs",
+      "name": "版本管理与协作",
+      "desc": "Git / LFS / Perforce 等版本控制集成",
+      "subcategories": ["版本控制与协作"]
+    },
+    {
+      "id": "ai",
+      "name": "AI 辅助",
+      "desc": "LLM、生成式 AI 与机器学习接入",
+      "subcategories": ["AI 辅助"]
+    },
+    {
+      "id": "other-tool",
+      "name": "其他工具",
+      "desc": "不便归入以上用途的辅助工具",
+      "subcategories": ["其他"]
+    }
+  ]
+}

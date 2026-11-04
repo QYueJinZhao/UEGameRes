@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UE 资源与工具索引 · 核查总结报告（2026-11-04）</title>
+<style>
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-2: #eef1f5;
+  --border: #dfe3e9;
+  --text: #1b2129;
+  --muted: #68707d;
+  --accent: #1a66ff;
+  --accent-ink: #0b3fb3;
+  --green: #137a4b;
+  --green-bg: #e7f6ee;
+  --amber: #8a5a00;
+  --amber-bg: #fff4dc;
+  --red: #a4232b;
+  --red-bg: #fdecec;
+  --gray-bg: #eef0f3;
+  --radius: 12px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 4px 14px rgba(16, 24, 40, .05);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+.hero {
+  background: radial-gradient(1200px 500px at 18% -10%, #26457c 0%, transparent 60%),
+              linear-gradient(180deg, #0e1a30 0%, #14213d 100%);
+  color: #e8eefc;
+}
+.hero-inner { max-width: 1120px; margin: 0 auto; padding: 36px 28px 30px; }
+.kicker { font-size: 12px; letter-spacing: .12em; color: #a9b7d4; text-transform: uppercase; }
+h1 { font-size: 30px; line-height: 1.2; margin: 8px 0 8px; letter-spacing: .3px; color: #fff; }
+.sub { margin: 0; color: #a9b7d4; font-size: 13px; max-width: 760px; }
+.pill { display: inline-block; border: 1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.06); color: #c9d4e9; border-radius: 999px; padding: 4px 11px; font-size: 12px; margin-top: 14px; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 20px; }
+.stat { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.11); border-radius: 10px; padding: 10px 13px; }
+.stat b { display: block; font-size: 21px; line-height: 1.25; color: #fff; font-variant-numeric: tabular-nums; }
+.stat span { display: block; font-size: 11.5px; color: #a9b7d4; margin-top: 2px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 26px 28px 40px; }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.toc a { font-size: 12.5px; color: var(--accent-ink); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 5px 11px; text-decoration: none; }
+.toc a:hover { border-color: var(--accent); }
+.section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 16px; box-shadow: var(--shadow); }
+h2 { font-size: 20px; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+h3 { font-size: 15px; margin: 22px 0 8px; color: var(--accent-ink); }
+p { margin: 10px 0; color: #303844; line-height: 1.75; }
+ul { margin: 10px 0; padding-left: 22px; }
+li { margin: 6px 0; line-height: 1.7; }
+.callout { margin: 14px 0; padding: 11px 14px; background: var(--amber-bg); border-left: 3px solid #d99400; color: var(--amber); border-radius: 6px; font-size: 13.5px; }
+.table-wrap { overflow-x: auto; margin: 12px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th { text-align: left; background: var(--surface-2); color: #39424f; font-weight: 600; padding: 8px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 8px 10px; border-bottom: 1px solid #edf0f3; vertical-align: top; }
+tbody tr:last-child td { border-bottom: 0; }
+td:first-child, th:first-child { white-space: nowrap; }
+pre.cmd { background: #0e1a30; color: #e8eefc; padding: 14px 16px; border-radius: 8px; overflow-x: auto; font-size: 12.5px; line-height: 1.9; }
+pre.cmd code { font-family: "Cascadia Code", Consolas, "SFMono-Regular", monospace; }
+.footer { max-width: 1120px; margin: 0 auto; padding: 0 28px 30px; color: var(--muted); font-size: 12.5px; }
+.footer strong { color: var(--text); }
+@media (max-width: 760px) {
+  .hero-inner, .wrap, .footer { padding-left: 16px; padding-right: 16px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .section { padding: 18px 16px; }
+  h1 { font-size: 24px; }
+  td:first-child, th:first-child { white-space: normal; }
+}
+@media print {
+  body { background: #fff; color: #111; }
+  .hero { background: #fff !important; color: #111; border-bottom: 2px solid #111; }
+  .hero-inner { padding: 18px 0; }
+  h1, .kicker, .sub, .pill, .stat b { color: #111 !important; }
+  .sub, .stat span, .pill { color: #444 !important; }
+  .stats { grid-template-columns: repeat(4, 1fr); }
+  .stat { border: 1px solid #bbb; background: #fff; }
+  .toc { display: none; }
+  .wrap { max-width: none; padding: 0; }
+  .section { box-shadow: none; border: 0; border-top: 1px solid #999; border-radius: 0; padding: 14px 0; margin: 0; break-inside: avoid; }
+  .table-wrap { overflow: visible; }
+  table { font-size: 11px; }
+  th, td { padding: 5px 6px; }
+  pre.cmd { background: #fff; color: #111; border: 1px solid #999; }
+  .callout { background: #fff; border-left: 3px solid #666; color: #222; }
+  a { color: #111; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="kicker">UE Assets &amp; Tools Index · Audit Report</div>
+    <h1>UE 资源与工具索引 · 核查总结报告</h1>
+    <p class="sub">核查范围、可信度口径、付费项与已知缺口。所有数字由 scripts/report.js 读取 data/*.json 现算生成，数据变了重跑即更新。</p>
+    <div class="pill">报告日期 2026-11-04 · 抓取截止 2026-11-04（Asia/Shanghai） · 自包含，可直接打印</div>
+    <div class="stats"><div class="stat"><b>349</b><span>总条目 · 资源 205 / 工具 144</span></div><div class="stat"><b>85.7%</b><span>免费占比 · 299 免费 / 50 付费</span></div><div class="stat"><b>99.7%</b><span>截图覆盖 · 348 / 349</span></div><div class="stat"><b>18</b><span>B 站已核实 · 无法确认 5 / 已收费 24</span></div></div>
+  </div>
+</header>
+<main class="wrap">
+  <nav class="toc">
+    <a href="#sec1">1 一页结论</a>
+    <a href="#sec2">2 范围与方法</a>
+    <a href="#sec3">3 结果分口径</a>
+    <a href="#sec4">4 判定标准</a>
+    <a href="#sec5">5 缺口与风险</a>
+    <a href="#sec6">6 复盘与后续</a>
+    <a href="#sec7">7 文件与复现</a>
+  </nav>
+<div class="section"><h2 id="sec1">1. 一页结论</h2>
+<p>本次核查登记来源 11 个（含 B 站信息源），主目录 349 条条目：资源 205 条，工具/插件 144 条。免费 299 条（85.7%），付费 50 条（14.3%）。截图 348/349（99.7%），缺 1 条。</p>
+<p>B 站信息源：34 个视频、51 条线索，去重后 48 个资源。结论分布：已核实 18、已收费 24、已下架 1、待核实 0、无法确认 5、失效 0。</p>
+<p>能不能直接用：免费部分能用，但不能默认商用——资源与本地工具 265 条中有 69 条许可标「未获取」，GitHub 另有 13 条未声明许可。付费部分不能盲买——47 条有 CNY 价格（¥33.18–¥1196.87，中位 ¥249.32），3 条价格未获取，50 条许可未获取，15 条评价数 &lt;10。</p>
+<p>建议路径：先用 299 条免费资源和 8 组免费替代跑通流程；付费只考虑评价数 ≥50 且评分 ≥4.5 的 17 条中的具体需求项，并在结算页确认许可与最终价格。</p>
+<div class="callout">结论：目录可用，但「可用」只等于入口与基础信息可用；商用许可、最终价格和插件版本兼容性仍需逐条确认。</div>
+</div>
+<div class="section"><h2 id="sec2">2. 核查范围与方法</h2>
+<p>登记来源 11 个（含 B 站信息源）；B 站只作信息源，不作为下载源。来源计数按条目 source 域名归并，GitHub 129 条包含 GitHub 视图 84 条与主目录中已有的 GitHub 条目。</p>
+<div class="table-wrap"><table><thead><tr><th>来源</th><th>条目数</th><th>许可口径</th><th>获取方式</th></tr></thead><tbody><tr><td>Fab（Epic 市场）</td><td>67</td><td>各商品许可不同，以商品页为准</td><td>频道/分类页与卖家页公开访问；详情页常 403/Cloudflare，价格用频道页或搜索快照</td></tr><tr><td>Epic 官方示例（Fab）</td><td>41</td><td>UE 限定内容 / 商品页为准</td><td>Fab 商品接口 + Epic 官方文档页；价格与评分为主</td></tr><tr><td>Quixel Megascans / Megaplants（Fab）</td><td>7</td><td>Megascans 示例多为商品页 License terms 为 - / Fab Standard License；以商品页为准</td><td>Fab 卖家页与商品页；部分页面 403，以示例工程为主</td></tr><tr><td>Poly Haven</td><td>34</td><td>CC0</td><td>公开页面；CC0 直接下载</td></tr><tr><td>ambientCG</td><td>14</td><td>CC0</td><td>公开页面；CC0 直接下载</td></tr><tr><td>Kenney</td><td>25</td><td>CC0</td><td>公开页面；ZIP 直下</td></tr><tr><td>OpenGameArt</td><td>12</td><td>混合（CC0 / CC-BY / OGA-BY / CC-BY-SA）</td><td>公开页面；逐条许可</td></tr><tr><td>Sketchfab（可下载 CC0）</td><td>19</td><td>CC0 Public Domain（仅收录可下载项）</td><td>公开页面；仅 downloadable + CC0</td></tr><tr><td>Quaternius</td><td>1</td><td>CC0（官网逐包标注）</td><td>官网公开页面；CC0</td></tr><tr><td>B 站信息源（视频简介 / 评论 / 字幕）</td><td>34 视频 / 51 线索</td><td>仅作线索溯源，资源许可以官方页面为准</td><td>view/reply/player 公开接口；字幕需登录，未获取</td></tr><tr><td>GitHub（UE 插件 / 示例仓库）</td><td>129（GitHub 视图 84）</td><td>各仓库 LICENSE 为准（MIT / Apache / GPL 等）</td><td>未认证 search API；不逐仓库打详情</td></tr></tbody></table></div>
+<p>采集限额与手段：GitHub 未认证 search API，16 次查询、每次 per_page=100；重点仓库补详情 24 次调用（剩余额度 36），.uplugin 走 raw 再 12 次（剩余 23）。B 站公开接口按约 1.2 秒/次限速；复核脚本按 1 秒/次限速。</p>
+<p>公开接口：GitHub search/repo/releases、B 站 view/reply/player、Epic 商品接口。页面快照：Fab 频道/分类页与卖家页、搜索引擎快照、Epic 官方文档页。拿不到：B 站字幕（需登录）、部分 Fab 详情页（403/Cloudflare）、部分价格/许可/体积字段。</p>
+<p>Fab 风控在复核报告中留下 6 条 403 记录；这些记录只说明「没拿到」，不覆盖已有结论，也没有绕过风控。</p>
+</div>
+<div class="section"><h2 id="sec3">3. 结果分口径呈现</h2>
+<h3>3.1 资源</h3>
+<p>资源 205 条：免费 165、付费 40。按用途分布如下。</p>
+<div class="table-wrap"><table><thead><tr><th>用途</th><th>总数</th><th>免费</th><th>付费</th></tr></thead><tbody><tr><td>环境 / 场景</td><td>27</td><td>22</td><td>5</td></tr><tr><td>材质与贴图</td><td>37</td><td>32</td><td>5</td></tr><tr><td>道具与模型</td><td>38</td><td>33</td><td>5</td></tr><tr><td>角色与动画</td><td>16</td><td>11</td><td>5</td></tr><tr><td>特效（Niagara / VFX）</td><td>12</td><td>7</td><td>5</td></tr><tr><td>音频</td><td>14</td><td>9</td><td>5</td></tr><tr><td>UI、字体与图标</td><td>13</td><td>8</td><td>5</td></tr><tr><td>蓝图 / 示例项目 / 模板</td><td>36</td><td>31</td><td>5</td></tr><tr><td>其他（HDRI / 天空 / 后处理）</td><td>12</td><td>12</td><td>0</td></tr><tr><td>合计</td><td>205</td><td>165</td><td>40</td></tr></tbody></table></div>
+<h3>3.2 工具与插件</h3>
+<p>工具/插件 144 条：免费 134、付费 10。其中本地工具条目 60 条，GitHub 合并 84 条；下面的分类分布包含 GitHub 条目。</p>
+<div class="table-wrap"><table><thead><tr><th>用途</th><th>总数</th><th>免费</th><th>付费</th></tr></thead><tbody><tr><td>编辑器效率</td><td>25</td><td>23</td><td>2</td></tr><tr><td>蓝图 / 脚本</td><td>24</td><td>22</td><td>2</td></tr><tr><td>美术与关卡</td><td>31</td><td>28</td><td>3</td></tr><tr><td>动画</td><td>3</td><td>3</td><td>0</td></tr><tr><td>音频</td><td>5</td><td>4</td><td>1</td></tr><tr><td>性能与调试</td><td>14</td><td>13</td><td>1</td></tr><tr><td>打包与工程管理</td><td>5</td><td>4</td><td>1</td></tr><tr><td>版本管理与协作</td><td>11</td><td>11</td><td>0</td></tr><tr><td>AI 辅助</td><td>22</td><td>22</td><td>0</td></tr><tr><td>其他工具</td><td>4</td><td>4</td><td>0</td></tr><tr><td>合计</td><td>144</td><td>134</td><td>10</td></tr></tbody></table></div>
+<h3>3.2.1 GitHub 活跃度</h3>
+<p>GitHub 84 条：推荐池 76 条。活跃度分档如下。</p>
+<div class="table-wrap"><table><thead><tr><th>档位</th><th>条数</th><th>处理</th></tr></thead><tbody><tr><td>活跃（近 6 个月有提交）</td><td>60</td><td>正常推荐</td></tr><tr><td>一般（6–12 个月）</td><td>10</td><td>正常推荐</td></tr><tr><td>停滞（超 12 个月）</td><td>12</td><td>按人气二次判定</td></tr><tr><td>归档</td><td>2</td><td>默认不展示</td></tr><tr><td>合计</td><td>84</td><td>—</td></tr></tbody></table></div>
+<p>停滞 12 条中，久未更新但高人气 6 条保留推荐，并标注最后提交、UE 版本与可能需手动改编译；久未更新且人气低 6 条默认不展示。归档 2 条默认不展示，仅在仍有代码价值时保留。</p>
+<p>分组：编辑器效率 15、蓝图与脚本 18、AI辅助 17、美术与关卡 21、性能调试 6、版本管理与协作 7。</p>
+<p>版本信息：release 可追溯 8 条、明确无 release 4 条、未获取 72 条；UE 版本 5.x 70 条、4.x 7 条、未获取 7 条。</p>
+<h3>3.3 付费项</h3>
+<p>付费 50 条（资源 40 + 工具 10）。</p>
+<div class="table-wrap"><table><thead><tr><th>指标</th><th>结果</th></tr></thead><tbody><tr><td>有 CNY 价格</td><td>47 条</td></tr><tr><td>价格区间</td><td>¥33.18–¥1196.87</td></tr><tr><td>中位价</td><td>¥249.32</td></tr><tr><td>价格 &lt;¥100</td><td>9 条</td></tr><tr><td>价格 ¥100–299</td><td>18 条</td></tr><tr><td>价格 ¥300–599</td><td>13 条</td></tr><tr><td>价格 ≥¥600</td><td>7 条</td></tr><tr><td>评分 5.0</td><td>15 条</td></tr><tr><td>评分 4.5–4.9</td><td>24 条</td></tr><tr><td>评分 4.0–4.4</td><td>9 条</td></tr><tr><td>评分 &lt;4.0</td><td>2 条</td></tr><tr><td>评价数 ≥50</td><td>18 条</td></tr><tr><td>评价数 10–49</td><td>17 条</td></tr><tr><td>评价数 &lt;10</td><td>15 条</td></tr><tr><td>标「样本少」</td><td>15 条</td></tr><tr><td>有免费替代</td><td>8 条</td></tr><tr><td>价格未获取</td><td>3 条</td></tr><tr><td>许可未获取</td><td>50 条</td></tr></tbody></table></div>
+<p>本轮新增付费（verified 2026-11-04）13 条：10 条有 CNY 价格（¥132.92–¥997.38），3 条价格未获取，13 条许可未获取（Fab 商品页许可条款显示「-」）；评分 4.7–5.0，评价数 ≥50 的 10/13，1 条 &lt;10 标「样本少」。这是 50 条付费总盘中的新增批次，不是全部。</p>
+<p>价格未获取的 3 条：Retro 8Bit Sounds（Fab 卖家页显示 R$77.51、官方页 $15，中国区税前 CNY 未获取，未折算）；FPS Game Starter Kit（Fab 页面以 USD 显示 $39.99，-50% 后 $19.99*（2026-11-04 快照），中国区税前 CNY 未获取，未折算）；Stage Zero – Shader Pre-Compile &amp; Loading Screens System（Fab 页面显示 $39.99–$59.99（代理地区显示 USD），中国区税前 CNY 未获取，未折算）。</p>
+<p>有免费替代的 8 条，备注均指向目录内条目：quaternius-universal-animation-library、oga-50-rpg-sound-effects、fab-true-first-person-template、acg-fabric086、kenney-ui-pack、epic-niagara-examples、gh-mika314-uellama、gh-gtreshchev-runtimeaudioimporter。</p>
+<p>评分与评价数全部来自页面当时显示；评价数 &lt;10 的 15 条已在页面标「样本少」，不要把高分当作口碑。</p>
+<h3>3.4 B 站信息源</h3>
+<div class="table-wrap"><table><thead><tr><th>指标</th><th>结果</th></tr></thead><tbody><tr><td>视频</td><td>34 个</td></tr><tr><td>线索（原始提及）</td><td>51 条</td></tr><tr><td>去重资源</td><td>48 个</td></tr><tr><td>已核实</td><td>18 个</td></tr><tr><td>待核实</td><td>0 个</td></tr><tr><td>已收费</td><td>24 个</td></tr><tr><td>已下架</td><td>1 个</td></tr><tr><td>无法确认</td><td>5 个</td></tr><tr><td>失效</td><td>0 个</td></tr><tr><td>有字幕视频</td><td>0 个</td></tr><tr><td>字幕文本</td><td>0 条</td></tr><tr><td>简介覆盖率</td><td>34/34（100%）</td></tr><tr><td>热门评论</td><td>57 条（24 个视频有评论）</td></tr><tr><td>线索来源</td><td>简介 50 / 评论 1 / 字幕 0</td></tr><tr><td>第三方网盘链接</td><td>22 条</td></tr></tbody></table></div>
+<p>原始提及状态：已核实 20、已收费 24、已下架 1、无法确认 6；按官方链接优先、否则按名称去重后，变为 18/24/1/5。</p>
+<p>字幕：34 个视频的 subtitleStatus 全部是「未获取（需登录 Cookie）」；本轮没有拿到任何字幕文本，不能把字幕当作线索来源。</p>
+<p>5 条无法确认已按最后一轮作者名/数量特征反查结案，备注含 channels 与 checkedAt，不再重复追踪。</p>
+<h3>3.5 Epic 官方免费示例</h3>
+<div class="table-wrap"><table><thead><tr><th>指标</th><th>结果</th></tr></thead><tbody><tr><td>本轮净新增</td><td>34 条</td></tr><tr><td>完整示例工程</td><td>22 条</td></tr><tr><td>场景资产包</td><td>9 条</td></tr><tr><td>学习内容</td><td>2 条</td></tr><tr><td>模板</td><td>1 条</td></tr><tr><td>许可 UE-Only（商品页）</td><td>32 条</td></tr><tr><td>许可含官方文档页</td><td>2 条</td></tr><tr><td>评分未获取</td><td>3 条</td></tr><tr><td>体积未获取</td><td>32 条</td></tr><tr><td>与旧条目去重跳过</td><td>8 条</td></tr><tr><td>资源目录中 epic-samples 来源</td><td>41 条</td></tr></tbody></table></div>
+<p>资源目录中 epic-samples 来源的 41 条 = 本轮 epic-samples.json 净新增 34 条 + 既有 Epic Games 示例 7 条（City Sample、Lyra 等）。</p>
+<p>许可限制：34 条中 32 条为商品页 Epic Content License（UE-Only），2 条来自 Epic 官方文档页。共同限制：仅可在 Unreal Engine 项目内使用；不可单独再分发；不可用于非 UE 引擎。</p>
+</div>
+<div class="section"><h2 id="sec4">4. 判定标准与可信度</h2>
+<p>主目录 349 条均带核对日期（verified 合法日期 349 条）；下面这张状态表只针对 B 站去重资源，不要把主目录条目当成同一套状态。</p>
+<div class="table-wrap"><table><thead><tr><th>状态</th><th>判定条件</th><th>本次条数</th></tr></thead><tbody><tr><td>verified</td><td>官方页面可打开，且当前免费可用；必须有 officialUrl</td><td>18 条</td></tr><tr><td>paid</td><td>有购买入口或明确标价，判定已收费</td><td>24 条</td></tr><tr><td>removed</td><td>稳定 404/410，或页面明确写找不到</td><td>1 条</td></tr><tr><td>dead</td><td>历史失效，保留留档</td><td>0 条</td></tr><tr><td>pending</td><td>有名称或链接，但尚未得出结论</td><td>0 条</td></tr><tr><td>unverifiable</td><td>公开渠道查尽仍无法确认；必须列 channels</td><td>5 条</td></tr></tbody></table></div>
+<ul><li>人气优先于活跃度：GitHub 推荐不只看最近提交；久未更新但高人气 6 条保留推荐，久未更新且人气低 6 条默认不展示。</li><li>评价数 &lt;10 标「样本少」：本次 15 条付费项命中；高分可能来自极小样本，不当口碑。</li><li>403 不覆盖已有结论：复核遇到 403/429/503 一律记「风控，未获取」，保持原状态；本次 6 条 403。</li><li>只有 404/410 判下架：单次 404 必须换渠道复核；本次 removed 1 条、dead 0 条。</li><li>去重状态优先级：verified &gt; paid &gt; removed &gt; dead &gt; pending；同一资源被多条视频提及时取最确定的结论。</li><li>价格与许可：付费价格必须是页面实际 CNY；抓不到写 null 并在备注写「未获取」，不折算、不估算；本次 3 条价格未获取。</li><li>主目录：349 条都有核对日期；截图按本地文件实际存在计数，不按字段是否为空。</li></ul>
+</div>
+<div class="section"><h2 id="sec5">5. 已知缺口与风险</h2>
+<p>以下缺口保留原值，不用「暂无数据」美化。每条都给出影响和使用者动作。</p>
+<div class="table-wrap"><table><thead><tr><th>缺口</th><th>数量</th><th>影响</th><th>使用者该怎么做</th></tr></thead><tbody><tr><td>价格未获取</td><td>3 条</td><td>无法做预算与比价</td><td>到商品页或结算页确认 CNY 最终价；不要把 USD/BRL 折算当中国区价格</td></tr><tr><td>许可未获取（资源/本地工具）</td><td>69 条（付费 50 + 免费 19）</td><td>无法确认能否商用、能否用于商业游戏</td><td>用前核对商品页 License terms 或仓库 LICENSE；拿不到就联系作者</td></tr><tr><td>截图缺口</td><td>1 条</td><td>卡片没有可用预览</td><td>点官方页面看实际效果；不要用占位图代替</td></tr><tr><td>GitHub release 未获取</td><td>72 条（另 4 条明确无 release）</td><td>无法判断是否有可安装版本</td><td>看仓库 Releases/Tags 与 README；只有源码时需自行编译</td></tr><tr><td>GitHub UE 版本未获取</td><td>7 条（已识别 5.x 70 / 4.x 7）</td><td>无法判断与当前引擎是否兼容</td><td>读 .uplugin 的 EngineVersion 或 README 明示版本；没有再实测</td></tr><tr><td>资源/本地工具引擎字段未获取</td><td>72 条（付费 37 + 免费 35）</td><td>无法判断与当前 UE 版本兼容</td><td>看商品页 Engines/版本说明；在目标版本实测后再批量使用</td></tr><tr><td>Fab 风控</td><td>6 条 403</td><td>页面快照可能过期，价格/状态会漂移</td><td>重跑 recheck；以人工打开的公开页面为准，不绕过风控</td></tr><tr><td>B 站字幕</td><td>34/34 个视频</td><td>无法从字幕挖线索，字幕命中为 0</td><td>需要登录态才能取字幕；当前只用简介与评论，不猜字幕内容</td></tr><tr><td>第三方网盘</td><td>22 条链接</td><td>来源与安全性未核实</td><td>不作为主力下载入口；优先找官方页或作者发布页</td></tr><tr><td>Epic 体积未获取</td><td>32/34 条</td><td>无法预估磁盘与下载时间</td><td>到商品页看 Download size；预留解压与 DerivedData 空间</td></tr><tr><td>GitHub 许可风险</td><td>13 条未声明 / 5 条 GPL</td><td>商用可能受限或传染</td><td>未声明许可先联系作者；GPL/AGPL 在闭源商业项目里慎用</td></tr></tbody></table></div>
+</div>
+<div class="section"><h2 id="sec6">6. 复盘与后续</h2>
+<h3>6.1 本轮踩的坑（提炼）</h3>
+<ul><li>B 站搜索页是前端渲染，匿名抓不到；字幕接口匿名也不返回。规则：只用 view/reply/player 公开接口，字幕拿不到就写「未获取（需登录 Cookie）」，不猜、不做 ASR。</li><li>Fab 直连常 403/Cloudflare，换 ?lang= 参数还会 404。规则：403/429/503 记「风控，未获取」，用公开页面/搜索快照取证，绝不代理绕过。</li><li>404 不等于资源没了：曾因带 ?lang=en-US 的参数 404 误判，裸 URL 实际可打开。规则：只有稳定 404/410 或页面明确「找不到」才判 removed。</li><li>同一资源被多条视频提及时状态会冲突。规则：按官方链接优先、否则名称去重；状态取 verified &gt; paid &gt; removed &gt; dead &gt; pending。</li><li>缺图、状态与 free 不一致曾靠人工发现。规则：把口径写进 build.js 断言，状态、缺图、分片、路由、条目内联都自动校验。</li><li>外链图有速率限制，OG 429、GitHub assets 302 都会让下载失败。规则：只收可下载的真实图片，失败进待补图，不生成占位图、不热链。</li><li>数据构建与页面重建混在一起会让 index.html 无故变动。规则：新增数据只跑 build，改 src/ 才加 --page。</li><li>GitHub 未认证 API 限额紧：core 60 次/小时、search 10 次/分钟。规则：靠 search 字段覆盖，重点仓库才补详情，限额将尽即停。</li><li>插件不能只看最近提交：会误杀成熟但停更的插件。规则：活跃度定档 + 人气（stars ≥300 或分组前 20%）二次判定。</li></ul>
+<h3>6.2 已沉淀进脚本 / README 的规则</h3>
+<ul><li>scripts/build.js：字段/类型/ID/分类/链接/断图校验；付费价格缺失必须 notes 写明「未获取」；评价数 &lt;10 警告；分片完整性、路由唯一、index.html 不内联条目；B 站状态与 free 一致性。</li><li>scripts/recheck.js：只访问公开页面，1 秒/次；403/429/503 保持原状态；404/410 才改判；结论写 data/recheck-report.json，人工证据写 data/recheck-evidence.json。</li><li>README.md：字段 schema、数据/页面隔离、视图模式、GitHub 采集与推荐双口径、Epic 示例许可限制、新增报告的生成命令。</li><li>docs/RETRO.md：保留完整踩坑记录；本报告第 6.1 节只提炼可复用规则，不复制全文。</li></ul>
+<h3>6.3 下一轮优先级（按投入产出）</h3>
+<div class="table-wrap"><table><thead><tr><th>优先级</th><th>做什么</th><th>为什么先做</th></tr></thead><tbody><tr><td>1</td><td>补 3 条价格与 50 条付费许可</td><td>直接影响买不买、能不能商用；是付费目录的核心决策信息</td></tr><tr><td>2</td><td>补 GitHub release 72 条、UE 版本 7 条与 13 条未声明许可</td><td>影响插件能不能装、能不能商用；比继续加条数更能提升可用性</td></tr><tr><td>3</td><td>处理 B 站 5 条无法确认线索；字幕需登录后再评估</td><td>追溯成本高、收益有限；先把已有结论的证据补全</td></tr><tr><td>4</td><td>补 Epic 体积 32 条与截图 1 条</td><td>只影响展示与磁盘预估，不改变资源本身可用性，放最后</td></tr></tbody></table></div>
+</div>
+<div class="section"><h2 id="sec7">7. 附：文件清单与复现命令</h2>
+<div class="table-wrap"><table><thead><tr><th>文件</th><th>内容</th><th>规模</th></tr></thead><tbody><tr><td>data/resources.json</td><td>205 条资源</td><td>222.7 KB</td></tr><tr><td>data/tools.json</td><td>60 条本地工具</td><td>73.1 KB</td></tr><tr><td>data/github.json</td><td>84 条 GitHub 插件</td><td>89.5 KB</td></tr><tr><td>data/epic-samples.json</td><td>34 条 Epic 示例</td><td>56.8 KB</td></tr><tr><td>data/bilibili.json</td><td>34 个视频 / 51 条线索</td><td>128.4 KB</td></tr><tr><td>data/core.js</td><td>stats / counts / 分类（构建产物）</td><td>11.3 KB</td></tr><tr><td>scripts/build.js</td><td>校验 + 统计 + 分片 / 页面</td><td>48.1 KB</td></tr><tr><td>scripts/recheck.js</td><td>公开链接复核 + 变动报告</td><td>12.6 KB</td></tr><tr><td>scripts/report.js</td><td>生成本报告 + 一致性检查</td><td>43.9 KB</td></tr><tr><td>docs/REPORT-2026-11-04.md</td><td>Markdown 主稿</td><td>见生成输出</td></tr><tr><td>docs/REPORT-2026-11-04.html</td><td>自包含打印/分享版</td><td>见生成输出</td></tr></tbody></table></div>
+<pre class="cmd"><code>node scripts/build.js      # 校验数据、重算统计，重建 data/*.js 分片与 assets.json
+node scripts/recheck.js    # 公开链接复核，写 data/recheck-report.json，并串跑 build
+node scripts/report.js     # 从 data/*.json 生成本报告，并做数字一致性检查</code></pre>
+<p>抓取截止：2026-11-04（Asia/Shanghai）。core.generatedAt 为 2026-11-04（构建机 UTC 日期）；页面文件未重建，只有数据与报告更新。</p>
+<p>一致性检查：报告总数 349 = counts 资源 205 + 工具 144；免费 299、付费 50、截图 348 与 core.stats 一致。</p>
+</div>
+</main>
+<footer class="footer">
+  <p><strong>复现：</strong><code>node scripts/build.js</code> → <code>node scripts/recheck.js</code> → <code>node scripts/report.js</code>。本页不依赖外部 CSS/JS/图片，样式变量与索引站一致；打印时自动切为白底。</p>
+</footer>
+</body>
+</html>

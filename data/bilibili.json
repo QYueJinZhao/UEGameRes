@@ -1,0 +1,2479 @@
+{
+  "meta": {
+    "fetchedAt": "2026-11-04",
+    "timezone": "Asia/Shanghai",
+    "method": "公开搜索 + Bilibili view/reply/player 接口；限速约 1.2 秒/次；未登录、未绕过风控",
+    "keywords": [
+      "Fab 免费",
+      "Quixel 免费",
+      "UE 免费 动画",
+      "UE 免费 特效",
+      "UE 免费资源",
+      "UE 插件 推荐",
+      "UE5 免费资源",
+      "虚幻引擎 免费 场景",
+      "UE 免费 材质",
+      "UE 免费 蓝图",
+      "UE 免费 角色 动画",
+      "UE 免费 音频",
+      "Fab 限免/每日免费",
+      "UE5 免费插件"
+    ],
+    "subtitleNote": "匿名状态调用 player/v2，所有候选视频 subtitle 列表均为空；按规则标「未获取」，不猜测字幕内容。",
+    "commentNote": "评论接口按热门排序（sort=2），并非置顶接口；只保存接口实际返回的热门评论。",
+    "verifyNote": "状态口径：verified=官方页面可打开且当前免费可用；paid=已收费（有购买入口/标价）；removed=已下架或页面 404；dead=历史失效；pending=有名称或链接但无法确认。",
+    "thirdPartyNote": "pan.baidu.com、ue.uulumi.com 等第三方网盘/聚合站统一标「第三方来源，未核实安全性」，不作为主力下载入口。",
+    "recheckedAt": "2026-11-04",
+    "recheckNote": "2026-11-04 第三轮（收尾）：6 条 unverifiable 做最后一轮作者名反查；1 条命中官方商品页改判 paid，其余 5 条保留 unverifiable 并记录最后一轮渠道。",
+    "statusNote": "状态口径：verified=已核实免费可用；paid=已收费；removed=已下架/404；pending=待核实；dead=历史失效。"
+  },
+  "videos": [
+    {
+      "id": "bv18ryw6metm",
+      "bvid": "BV18rYW6MEtm",
+      "aid": 117239604840667,
+      "url": "https://www.bilibili.com/video/BV18rYW6MEtm",
+      "title": "【免费】高质低多边形道路包Road Pack Set 01，UE5+Blender通用！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 886,
+      "publishedAt": "2026-09-18",
+      "keyword": "UE5 免费资源",
+      "desc": "兄弟们！终于给你们搞到了这套环境搭建必备的道路资产天花板——Road Pack Set 01 / LowPoly / GameReady！\n\n马路这块一直是场景制作里超费精力的环节，而这套包里把可调节道路、人行道、路口都做好了，丢进去就能快速搭出一条完整的游戏街区。\n\n🔥 为什么说是神级资源？\n✅ LowPoly低模风格，优化好，Game Ready直接使用\n✅ 同时支持UE5.3-5.5、3ds Max、Blender、OBJ、FBX等主流格式\n✅ 4K可平铺纹理，模型细节丰富\n✅ 85K多边形 / 103K顶点，场景承载无压力\n✅ 资源包已经打包，拖进引擎即用，省下大量建模时间\n\n🎯 适用范围：城市街道、小镇交通、游戏关卡、CG场景搭建都能用！\n\n该资源仅用于学习交流，有能力请支持正版。\n\n下载地址: 【超级会员V9】通过百度网盘分享的文件：Road Pack Set 01 LowPoly GameReady 5.5+.rar\n链接：https://pan.baidu.com/s/1Jho0bUtMCyj6mkvGC074WA?pwd=tcym\n提取码：tcym",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "Million榊",
+          "like": 0,
+          "text": "看这个我还以为红警的素材",
+          "origin": "评论",
+          "ctime": "2026-09-18"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Road Pack Set 01 / LowPoly / GameReady",
+          "type": "模型",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1Jho0bUtMCyj6mkvGC074WA?pwd=tcym",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "复核：无官方 Fab 页；RenderHub/TurboSquid 第三方售价约 $10–15，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.renderhub.com/mid-poly-models/street-elements",
+            "priceNote": "$10–15（第三方商店）",
+            "channels": null,
+            "note": "复核：无官方 Fab 页；RenderHub/TurboSquid 第三方售价约 $10–15，判定已收费。"
+          }
+        }
+      ],
+      "likes": 21,
+      "favorites": 70
+    },
+    {
+      "id": "bv1g3nwzhegr",
+      "bvid": "BV1g3NwzHEGR",
+      "aid": 116188143159830,
+      "url": "https://www.bilibili.com/video/BV1g3NwzHEGR",
+      "title": "【UE5免费资源】风格化沙漠城镇-Lowpoly Style Desert Pack等3个精选推荐 | 虚幻引擎",
+      "up": "hs2Lumi",
+      "upMid": 3706943965235945,
+      "views": 11,
+      "publishedAt": "2026-03-07",
+      "keyword": "UE5 免费资源",
+      "desc": "每日精选UE5/虚幻引擎免费资源推荐！\n\n今日推荐 3 个免费资源：\n  1. 风格化沙漠城镇-Lowpoly Style Desert Pack\n  2. 网格线蓝图 – Gridline Blueprints\n  3. 各类日常办公家用道具-101+ Everyday Props\n\n免费下载地址：ue.uulumi.com\n百度网盘直链，每日更新！\n\n觉得有用的话，点个关注+收藏，每天分享免费UE5资源~",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "未获取（接口返回空评论）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Lowpoly Style Desert Pack",
+          "type": "场景",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://ue.uulumi.com",
+          "officialUrl": "https://www.fab.com/listings/b8000576-9fa1-459f-8e15-aa2c63550781",
+          "thirdParty": true,
+          "note": "复核：原 UE Marketplace 页面显示 $29.99，促销 $14.99，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/lowpoly-style-desert-pack/questions",
+            "priceNote": "$14.99–29.99",
+            "channels": null,
+            "note": "复核：原 UE Marketplace 页面显示 $29.99，促销 $14.99，判定已收费。"
+          }
+        },
+        {
+          "name": "Gridline Blueprints",
+          "type": "蓝图",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://ue.uulumi.com",
+          "officialUrl": "https://www.fab.com/listings/7c0c9b3e-2a9e-4524-b152-d8158db67bfd",
+          "thirdParty": true,
+          "note": "复核：作者页写明「Questions before buying?」，为 Fab 付费插件；具体价格未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://helixthehare.github.io/",
+            "priceNote": "未获取",
+            "channels": null,
+            "note": "复核：作者页写明「Questions before buying?」，为 Fab 付费插件；具体价格未获取。"
+          }
+        },
+        {
+          "name": "101+ Everyday Props",
+          "type": "模型",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://ue.uulumi.com",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "复核：第三方商店标价 €11.90，判定已收费；官方页面未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.digitalgeekland.com/collections/unreal-engine",
+            "priceNote": "€11.90（第三方商店）",
+            "channels": null,
+            "note": "复核：第三方商店标价 €11.90，判定已收费；官方页面未获取。"
+          }
+        }
+      ],
+      "likes": 0,
+      "favorites": 0
+    },
+    {
+      "id": "bv1wfdebhedj",
+      "bvid": "BV1WFdEBhEDJ",
+      "aid": 116423477173122,
+      "url": "https://www.bilibili.com/video/BV1WFdEBhEDJ",
+      "title": "虚幻引擎 5 最新发布免费的 Niagara 粒子特效",
+      "up": "机器猫头好大",
+      "upMid": 3546568376453593,
+      "views": 722,
+      "publishedAt": "2026-04-18",
+      "keyword": "UE 免费 特效",
+      "desc": "Epic Games 刚刚在 Fab 上悄悄发布了官方的 Niagara VFX 特效包，而且完全免费。它包含了 AAA 级品质的爆炸、子弹冲击、枪口火焰、火焰、烟雾等等。在 FAB 获取资源包：https://www.fab.com/es-mx/listings/0e188eca-4e54-4fb2-a9ed-d8b8a565e600\n虚幻引擎 5、UE5、虚幻引擎教程、UE5 教程、虚幻引擎 Niagara、UE5 Niagara、Niagara 特效、虚幻引擎特效、UE5 特效、Niagara 特效、虚幻引擎特效、UE5 特效、免费虚幻引擎资源、UE5 免费资源、Epic Games Niagara、虚幻引擎爆炸、UE5 爆炸、Niagara 爆炸教程、虚幻引擎粒子、UE5 粒子、Epic Games FAB、虚幻引擎 FAB、免费特效包、虚幻引擎 5 特效、UE5 Niagara 教程、游戏开发、游戏开发、虚幻引擎新闻、UE5 新闻、Epic Games、虚幻引擎 5 教程、Niagara 粒子系统、AAA 级虚幻引擎特效、虚幻引擎火焰、UE5 火焰特效、虚幻引擎子弹影响，游戏开发教程",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "机器猫头好大",
+          "like": 0,
+          "text": "https://b23.tv/mall-GF5K9kuZV-2hz5m",
+          "origin": "评论",
+          "ctime": "2026-04-18"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Niagara Examples Pack",
+          "type": "特效",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/0e188eca-4e54-4fb2-a9ed-d8b8a565e600",
+          "officialUrl": "https://www.fab.com/listings/0e188eca-4e54-4fb2-a9ed-d8b8a565e600",
+          "thirdParty": false,
+          "note": "Fab 商品页核实为 Free（Epic Games 官方，评分 4.8 / 29）；含爆炸、弹着、火焰烟雾等示例与 Gallery 关卡。",
+          "resourceId": "epic-niagara-examples",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 19,
+      "favorites": 36
+    },
+    {
+      "id": "bv1bnkmysedh",
+      "bvid": "BV1bnkMYSEdh",
+      "aid": 113677751555217,
+      "url": "https://www.bilibili.com/video/BV1bnkMYSEdh",
+      "title": "Quixel Megascans最新带关卡的资产包，暗黑废墟，依然免费。",
+      "up": "猫花CG",
+      "upMid": 490206757,
+      "views": 211,
+      "publishedAt": "2024-12-19",
+      "keyword": "Quixel 免费",
+      "desc": "https://www.youtube.com/watch?v=Z0h6Oel3rW8\n在 EPIC 宣布新的收费政策前后，Quixel 是沉寂了很长一段时间，应该有一年多都没有更新，直到 Fab 登场，我们惊喜的看到 Quixel 发布了十个资产包，Bazaar，Medieval Banquet, Saloon Interior 等等，和之前Quixel 只发布单个资产不同，这十个资产有多资产的组合包，比如完整的沙龙酒屋，市场摊位等。现在 Quixel 发布了第一个带完整关卡的资产包 暗黑废墟，依然免费，快去Fab下载试试吧。\n有一段时间，都怕 EPIC 会放弃 Quixel，现在看来这种担心都是多余的，Quixel 明年应该会持续发力了，不过有一点，明年的资产包应该都要收费了，小伙伴们钱包准备好了吗？\n我第一时间下载了暗黑废墟，27G，第一次打开非常慢。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "公民4717",
+          "like": 0,
+          "text": "这个关卡卡的一",
+          "origin": "评论",
+          "ctime": "2025-07-06"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Dark Ruins Megascans Sample",
+          "type": "场景",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+          "officialUrl": "https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+          "thirdParty": false,
+          "note": "Fab 商品页核实为 Free（Quixel，评分 4.4 / 219）；视频简介未直接给链接，已按名称反查到唯一商品页。",
+          "resourceId": "quix-dark-ruins-sample",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 6,
+      "favorites": 6
+    },
+    {
+      "id": "bv1ovkmykey6",
+      "bvid": "BV1ovkmYkEY6",
+      "aid": 113684596655984,
+      "url": "https://www.bilibili.com/video/BV1ovkmYkEY6",
+      "title": "新 Quixel Dark Ruins Megascans 样本 | 虚幻引擎 5.5",
+      "up": "果果CG",
+      "upMid": 496368347,
+      "views": 665,
+      "publishedAt": "2024-12-21",
+      "keyword": "Quixel 免费",
+      "desc": "https://www.youtube.com/watch?v=-XWqQMaZEDU\n在本视频中，我们将在虚幻引擎5.5中查看新的Quixel Megascans Dark Ruins Sample项目。这个新的黑暗废墟包就像是魔戒与虚幻引擎 5 的结合。它包含大量高质量的纳米网格，您可以在您的游戏或商业项目中自由使用。\n在此免费下载：https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "mitmiffy的小号",
+          "like": 0,
+          "text": "fab现在下载不了可以，云盘吗",
+          "origin": "评论",
+          "ctime": "2025-06-26"
+        },
+        {
+          "user": "脑子来进货",
+          "like": 0,
+          "text": "怎么用5.3打开啊",
+          "origin": "评论",
+          "ctime": "2025-03-25"
+        },
+        {
+          "user": "SKtwoaaa",
+          "like": 0,
+          "text": "为什么我下载不了",
+          "origin": "评论",
+          "ctime": "2025-01-13"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Dark Ruins Megascans Sample",
+          "type": "场景",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+          "officialUrl": "https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+          "thirdParty": false,
+          "note": "简介直接给出 Fab 链接，核实为 Free；与 BV1bnkMYSEdh 指向同一资源，已聚合。",
+          "resourceId": "quix-dark-ruins-sample",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 12,
+      "favorites": 22
+    },
+    {
+      "id": "bv1oqctzperp",
+      "bvid": "BV1oqcTzPErP",
+      "aid": 116038356178315,
+      "url": "https://www.bilibili.com/video/BV1oqcTzPErP",
+      "title": "【UE5.7实测】白嫖预警！Quixel全新MegaPlants植被系统，这效果也太真实了！",
+      "up": "odOObo",
+      "upMid": 87986570,
+      "views": 1301,
+      "publishedAt": "2026-02-09",
+      "keyword": "Quixel 免费",
+      "desc": "各位好！家人们，Epic在UE5.7版本中又来送福利了！🎉\n\n本期视频带大家实测FAB商城最新上架的 **Quixel MegaPlants** 免费资源包。这次不只是简单的模型，而是包含了全新的 **Procedural Vegetation Editor (PVE)** 程序化植被编辑技术。\n\n🛠️ **视频要点：**\n* **资源白嫖指南**：手把手带你从 FAB 获取樱花树、松树等高精度资产。\n* **PVE 核心揭秘**：深入探索程序化植被编辑器，看一颗树是如何从逻辑节点生成的。\n* **Nanite 资产实测**：在 UE5.7 环境下的性能表现与风力动态系统展示。\n* **进阶干货**：如果你想深入学习生存游戏开发或多人联机架构，评论区有惊喜！\n\n💪 **下载地址：**\n点击前往 FAB 免费领取：[https://www.fab.com/sellers/Quixel%20Megaplants](https://www.fab.com/sellers/Quixel%20Megaplants)\n\n喜欢的点个三连支持一下，你的鼓励是我持续更新的最大动力！也要记得关注我，第一时间掌握虚幻引擎的前沿动态。\n\n#ue5 #虚幻引擎 #游戏开发 #quixel #megascans #fab #程序化建模 #bilibili新星计划",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "Yuran_Y",
+          "like": 0,
+          "text": "这个好",
+          "origin": "评论",
+          "ctime": "2026-02-13"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Quixel Megaplants（MegaPlants 植被合集）",
+          "type": "模型",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/sellers/Quixel%20Megaplants",
+          "officialUrl": "https://www.fab.com/sellers/Quixel%20Megaplants",
+          "thirdParty": false,
+          "note": "Quixel Megaplants 为免费程序化植被合集；已核实其中 Baltic Pine 等单品为 Free。需 PVE 插件与 Nanite Foliage（实验性）。",
+          "resourceId": "quix-megaplants-baltic-pine",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 38,
+      "favorites": 106
+    },
+    {
+      "id": "bv1hitzz2eh2",
+      "bvid": "BV1HiTzz2Eh2",
+      "aid": 114655527703422,
+      "url": "https://www.bilibili.com/video/BV1HiTzz2Eh2",
+      "title": "《UE5／Fab》第2期，免费的真实地形导入插件（SynTerra）",
+      "up": "uelab",
+      "upMid": 102843350,
+      "views": 2135,
+      "publishedAt": "2025-06-10",
+      "keyword": "UE 插件 推荐",
+      "desc": "UE5免费资产《SynTerra》Fab链接：\nhttps://www.fab.com/zh-cn/listings/e5df1d53-c8c4-460c-9fa4-efd373636d87",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "独坐の苍茫",
+          "like": 1,
+          "text": "NB, 关注了",
+          "origin": "评论",
+          "ctime": "2025-06-14"
+        },
+        {
+          "user": "WNAGRCQ",
+          "like": 0,
+          "text": "我看到我家了[呲牙]",
+          "origin": "评论",
+          "ctime": "2025-06-26"
+        },
+        {
+          "user": "朝着太阳飞奔的李大大",
+          "like": 0,
+          "text": "5.3能用嘛",
+          "origin": "评论",
+          "ctime": "2025-06-24"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "SynTerra",
+          "type": "插件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/e5df1d53-c8c4-460c-9fa4-efd373636d87",
+          "officialUrl": "https://www.fab.com/listings/e5df1d53-c8c4-460c-9fa4-efd373636d87",
+          "thirdParty": false,
+          "note": "Fab 商品页核实为 Free（评分 4.1 / 27）；卫星地形生成插件，免费版每天最多生成 5 个 tile。",
+          "resourceId": "fab-synterra",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 68,
+      "favorites": 182
+    },
+    {
+      "id": "bv1kutmzteso",
+      "bvid": "BV1kuTmzTEso",
+      "aid": 114644404408392,
+      "url": "https://www.bilibili.com/video/BV1kuTmzTEso",
+      "title": "《UE5／Fab》第1期，免费的植物交互组件（Interactive Foliage Physics）",
+      "up": "uelab",
+      "upMid": 102843350,
+      "views": 1955,
+      "publishedAt": "2025-06-08",
+      "keyword": "UE 插件 推荐",
+      "desc": "UE5免费资产《Interactive Foliage Physics》Fab链接：\n免费基础版：https://www.fab.com/zh-cn/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab\n1美元场景版：https://etheriondesigns.com/op/etherion-foliage-plugin-lite/",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "一只臭喜鹊",
+          "like": 1,
+          "text": "可以分享下1美元版的项目吗？我想看看怎么写的，自己照着改一个",
+          "origin": "评论",
+          "ctime": "2025-06-11"
+        },
+        {
+          "user": "心里的红旗飘啊飘",
+          "like": 0,
+          "text": "这个是物理还是材质交互",
+          "origin": "评论",
+          "ctime": "2025-09-19"
+        },
+        {
+          "user": "人畜无害的和尚",
+          "like": 0,
+          "text": "UP主加油！看好你噢~",
+          "origin": "评论",
+          "ctime": "2025-06-12"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Interactive Foliage Physics",
+          "type": "插件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab",
+          "officialUrl": "https://www.fab.com/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab",
+          "thirdParty": false,
+          "note": "复核：Fab 页面可打开且标注 Free（4.4 分）；旧版免费但已停更，新版 Lite $4.99 / Pro $119.99。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab",
+            "priceNote": "旧版免费",
+            "channels": null,
+            "note": "复核：Fab 页面可打开且标注 Free（4.4 分）；旧版免费但已停更，新版 Lite $4.99 / Pro $119.99。"
+          }
+        }
+      ],
+      "likes": 52,
+      "favorites": 148
+    },
+    {
+      "id": "bv198eez5ena",
+      "bvid": "BV198eEz5ENa",
+      "aid": 115083598431946,
+      "url": "https://www.bilibili.com/video/BV198eEz5ENa",
+      "title": "10 个适用于虚幻引擎 5 的免费 FAB 资源",
+      "up": "果果CG",
+      "upMid": 496368347,
+      "views": 301,
+      "publishedAt": "2025-08-25",
+      "keyword": "Fab 免费",
+      "desc": "https://www.youtube.com/watch?v=DKz7ziKH60c\n以下是10个免费的Unreal Engine 5 Fab资源，让您的游戏开发过程更加轻松愉快\n\nflight and grapple\nhttps://www.fab.com/listings/32f8ef7e-a581-4cfd-89e1-10bd40f6e465\n\nskeleteon\nhttps://www.fab.com/listings/8e5c5f8f-993a-4c76-b53c-b48bac9766ee\n\nmilitary soldier\nhttps://www.fab.com/listings/c6648c13-095f-47a8-944e-93c8bb97f567\n\nshrubs\nhttps://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657\n\nbasic blueprints\nhttps://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e\n\nvfx\nhttps://www.fab.com/listings/691fdb93-4005-4ff3-b5ee-988bbe4d7b40\n\ndoors\nhttps://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72\n\nquest system\nhttps://www.fab.com/listings/97225ffd-a042-4522-b72e-38a3926a25d4\n\nmaterials\nhttps://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4\n\nmaterial editor\nhttps://www.fab.com/listings/03f95133-980f-482c-b229-9bf668bb3990\n\nbreathing component\nhttps://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "一只伪灯",
+          "like": 0,
+          "text": "支持一下up[给心心]",
+          "origin": "评论",
+          "ctime": "2025-08-25"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Flight And Grapple",
+          "type": "蓝图",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/32f8ef7e-a581-4cfd-89e1-10bd40f6e465",
+          "officialUrl": "https://www.fab.com/listings/32f8ef7e-a581-4cfd-89e1-10bd40f6e465",
+          "thirdParty": false,
+          "note": "复核：AYaGuaiStore 卖家页标注 FlightAndGrapple「From £4.99」，商品页有 Buy now，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/sellers/AYaGuaiStore",
+            "priceNote": "£4.99 起（Fab 卖家页 From £4.99）",
+            "channels": [
+              "Fab 商品页直连",
+              "Fab 卖家页 AYaGuaiStore",
+              "Epic 开发者论坛产品讨论帖"
+            ],
+            "note": "复核：AYaGuaiStore 卖家页标注 FlightAndGrapple「From £4.99」，商品页有 Buy now，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "Skeleton",
+          "type": "角色",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/8e5c5f8f-993a-4c76-b53c-b48bac9766ee",
+          "officialUrl": "https://www.fab.com/listings/8e5c5f8f-993a-4c76-b53c-b48bac9766ee",
+          "thirdParty": false,
+          "note": "复核：该链接实际为 Feyloom 的 Skeleton Necromancer（Skeleton Pack 单角色），页面当前明确标注 Free 且提供 Download，判定免费可获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "free",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/sellers/Feyloom",
+            "priceNote": "免费（Fab 页面 Free + Download）",
+            "channels": [
+              "Fab 商品页直连",
+              "Fab 商品页?lang=en",
+              "作者 Feyloom 卖家页",
+              "Fab 站内搜索"
+            ],
+            "note": "复核：该链接实际为 Feyloom 的 Skeleton Necromancer（Skeleton Pack 单角色），页面当前明确标注 Free 且提供 Download，判定免费可获取。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "[CR] [LQ] Modular 005 MilitaryA [PACK]",
+          "type": "角色",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/c6648c13-095f-47a8-944e-93c8bb97f567",
+          "officialUrl": "https://www.fab.com/listings/c6648c13-095f-47a8-944e-93c8bb97f567",
+          "thirdParty": false,
+          "note": "复核：Fab 商品页标注 Free；卖家页显示该系列最低价「無料」，判定免费可用。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/ja/sellers/UNDERKING",
+            "priceNote": "免费",
+            "channels": null,
+            "note": "复核：Fab 商品页标注 Free；卖家页显示该系列最低价「無料」，判定免费可用。"
+          }
+        },
+        {
+          "name": "Free Shrubs Pack (Ultra Realistic Wind)",
+          "type": "模型",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657",
+          "officialUrl": "https://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657",
+          "thirdParty": false,
+          "note": "复核：Fab 标注 Free，4.9/21，11 种 Nanite 灌木，1.3 GB（UE5.4），判定免费可用。",
+          "resourceId": "fab-free-shrubs-pack",
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657",
+            "priceNote": "免费",
+            "channels": null,
+            "note": "复核：Fab 标注 Free，4.9/21，11 种 Nanite 灌木，1.3 GB（UE5.4），判定免费可用。"
+          }
+        },
+        {
+          "name": "Simple Blueprint Class",
+          "type": "蓝图",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e",
+          "officialUrl": "https://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e",
+          "thirdParty": false,
+          "note": "复核：商品实际名为 Simple Blueprint Class，Fab 标注 Free，5.0/4，判定免费可用。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e",
+            "priceNote": "免费",
+            "channels": null,
+            "note": "复核：商品实际名为 Simple Blueprint Class，Fab 标注 Free，5.0/4，判定免费可用。"
+          }
+        },
+        {
+          "name": "VFX",
+          "type": "特效",
+          "free": false,
+          "status": "removed",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/691fdb93-4005-4ff3-b5ee-988bbe4d7b40",
+          "officialUrl": "https://www.fab.com/listings/691fdb93-4005-4ff3-b5ee-988bbe4d7b40",
+          "thirdParty": false,
+          "note": "复核：Fab 页面返回「Sorry, we couldn’t find that page」，判定已下架（404）。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "removed",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/691fdb93-4005-4ff3-b5ee-988bbe4d7b40",
+            "priceNote": null,
+            "channels": null,
+            "note": "复核：Fab 页面返回「Sorry, we couldn’t find that page」，判定已下架（404）。"
+          }
+        },
+        {
+          "name": "Door System",
+          "type": "蓝图",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72",
+          "officialUrl": "https://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72",
+          "thirdParty": false,
+          "note": "复核：DeadWire 的 Door System，11 种门；商品页有 Buy now / Add to cart 且无 Free，判定已收费，价格未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72?lang=en",
+            "priceNote": "未获取（页面有 Buy now / Add to cart，未显示具体金额）",
+            "channels": [
+              "Fab 商品页直连",
+              "Fab 商品页?lang=en",
+              "作者 DeadWire 卖家页（页面空壳）",
+              "Fab 站内搜索"
+            ],
+            "note": "复核：DeadWire 的 Door System，11 种门；商品页有 Buy now / Add to cart 且无 Free，判定已收费，价格未获取。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "Quest System",
+          "type": "插件",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/97225ffd-a042-4522-b72e-38a3926a25d4",
+          "officialUrl": "https://www.fab.com/listings/97225ffd-a042-4522-b72e-38a3926a25d4",
+          "thirdParty": false,
+          "note": "复核：Fab 显示 Buy now，判定已收费；同页 GitHub 仓库可公开访问，但未声明 LICENSE。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://github.com/Ebrahim-Mottaghi-Rezaei/Quest-System",
+            "priceNote": "未获取",
+            "channels": null,
+            "note": "复核：Fab 显示 Buy now，判定已收费；同页 GitHub 仓库可公开访问，但未声明 LICENSE。"
+          }
+        },
+        {
+          "name": "【Volume.2】Material & Texture & SBSAR - 32 Set CompletePack",
+          "type": "材质",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4",
+          "officialUrl": "https://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4",
+          "thirdParty": false,
+          "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；实际商品名为 Volume.2 材质贴图 CompletePack。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4",
+            "priceNote": "未获取",
+            "channels": null,
+            "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；实际商品名为 Volume.2 材质贴图 CompletePack。"
+          }
+        },
+        {
+          "name": "Asset Lab - Streamlined Material Editing",
+          "type": "插件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/03f95133-980f-482c-b229-9bf668bb3990",
+          "officialUrl": "https://www.fab.com/listings/03f95133-980f-482c-b229-9bf668bb3990",
+          "thirdParty": false,
+          "note": "已在 Fab 商品页核实为 Free，评分 4.7 / 6；即视频中的 material editor。",
+          "resourceId": null,
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Easy Breath Audio Component",
+          "type": "音频",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+          "officialUrl": "https://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+          "thirdParty": false,
+          "note": "复核：页面显示 From free to ¥35.59，含付费档，不再视为完全免费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+            "priceNote": "¥0–35.59",
+            "channels": null,
+            "note": "复核：页面显示 From free to ¥35.59，含付费档，不再视为完全免费。"
+          }
+        }
+      ],
+      "likes": 12,
+      "favorites": 22
+    },
+    {
+      "id": "bv1m2vpzcehw",
+      "bvid": "BV1M2vPzcEHw",
+      "aid": 115095342420743,
+      "url": "https://www.bilibili.com/video/BV1M2vPzcEHw",
+      "title": "【免费神器！ZibraVDB虚幻引擎体积特效性能怪兽，烟雾火焰实时爆表！一键三连别错过】",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 911,
+      "publishedAt": "2025-08-26",
+      "keyword": "UE 免费 特效",
+      "desc": "欢迎来到CG技术周刊第四期！本期重磅分享ZibraVDB插件——虚幻引擎的实时体积渲染神器！它用独特的.zibravdb格式，让烟雾、火焰等复杂效果性能提升3倍以上，内存低耗、渲染飞快！无论你是VFX艺术家还是游戏开发者，都能轻松拖拽实现震撼视觉。资源免费下载，一键三连支持一下，更多硬核工具持续更新！官网有免费个人版，快来试试吧~\n\n\nfab--ZibraVDB插件免费下载地址：https://www.fab.com/listings/23aef313-3c6a-40ea-810d-35de2ea5bca2\n主页：https://www.zibra.ai/zibravdb-free-effects\n免费获取密钥：https://www.zibra.ai/zibravdb-pricing\n文档：https://zibra.notion.site/ZibraVDB-Documentation-4cb92e96487f4f31893469eb407ba097\nZibraVDB案例资源：https://drive.google.com/drive/folders/13exG2ynMBSwAE3loPESdvN-XuSp4I00U\nZibraVDB资源百度网盘：通过网盘分享的文件：ZibraVDB\n链接: https://pan.baidu.com/s/1GJjbz1Qs0rKCEvga6AQ7LA?pwd=q77w 提取码: q77w \n\n\nCG技术周刊第三期！\nhttps://www.bilibili.com/video/BV1oAhHzUEdS/\n\nCG技术周刊第二期！\nhttps://www.bilibili.com/video/BV1sCgpzUECU/\n\nCG技术周刊第一期！\nhttps://www.bilibili.com/video/BV1TGuez1ETs/",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "青蛙频道",
+          "like": 0,
+          "text": "大家都想要的同款，都在这里啦！ https://b23.tv/mall-p9U2-qm7G",
+          "origin": "评论",
+          "ctime": "2025-08-27"
+        },
+        {
+          "user": "大兔子出门溜达",
+          "like": 0,
+          "text": "Vdb文件体积太大，而且有个通病，不敢搞太大，精度也不敢搞太高，文件要爆炸",
+          "origin": "评论",
+          "ctime": "2025-08-27"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "ZibraVDB（Personal Tier）",
+          "type": "插件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/23aef313-3c6a-40ea-810d-35de2ea5bca2",
+          "officialUrl": "https://www.fab.com/listings/23aef313-3c6a-40ea-810d-35de2ea5bca2",
+          "thirdParty": false,
+          "note": "Fab 核实为 Free（评分 4.8 / 22）；仅个人版免费（年收入 < 10 万美元），商业工作室需付费密钥。评论区提到自定义 VDB 压缩仍需付费，免费仅能用官方示例。",
+          "resourceId": "fab-zibravdb-personal",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 26,
+      "favorites": 31
+    },
+    {
+      "id": "bv1wvnozyewa",
+      "bvid": "BV1wVnozYEWa",
+      "aid": 115281720515862,
+      "url": "https://www.bilibili.com/video/BV1wVnozYEWa",
+      "title": "火爆全网！KAWAII ANIMATIONS 100 海量动画免费分享，一键三连白嫖到手！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 4679,
+      "publishedAt": "2025-09-28",
+      "keyword": "UE 免费 动画",
+      "desc": "兄弟们！今天给大家带来虚幻引擎圈子里备受好评的动画资产——KAWAII ANIMATIONS 100 最新版！\n这款资产集成了海量高质量女性动画，无论是行走跑跳、待机互动，还是战斗动作，一应俱全，堪称动画界的万金油！\n\n为什么说它是神级插件？\n支持持续更新，目前已包含445个动画！\n涵盖行走、跑步、跳跃、游泳、攀爬、待机等多种基础动作。\n更有坐立、睡眠、赤手空拳、单手剑、魔法师、重型长剑等丰富战斗与互动动画。\n动作流畅自然，能让你的角色瞬间活起来！\n完美适配你的游戏项目，让开发效率和画面表现力直接起飞！\n\n本期亮点：\n详细展示KAWAII ANIMATIONS 100的各类动画效果！\n如何将这些动画快速应用到你的UE项目！\n常见动画导入与使用技巧分享！\n\n获取方式：\n一键三连支持UP主！\n评论区留言\\\"动画\\\"！\n\n做游戏的兄弟们，这个动画包能让你的项目角色动起来，画质表现力直接起飞！\n\n\n\n\n\n\n\n通过网盘分享的文件：1132. KAWAII ANIMATIONS 100.zip\n链接: https://pan.baidu.com/s/1fhaVgvrP14GvE7dcVuL2Gg?pwd=ik9a 提取码: ik9a",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "胜天半子巜",
+          "like": 11,
+          "text": "好东西我将使用壮汉蒙皮",
+          "origin": "评论",
+          "ctime": "2025-09-29"
+        },
+        {
+          "user": "卡萨嘛",
+          "like": 0,
+          "text": "Unity 可以用吗",
+          "origin": "评论",
+          "ctime": "2026-02-04"
+        },
+        {
+          "user": "退休的90后",
+          "like": 0,
+          "text": "已三连",
+          "origin": "评论",
+          "ctime": "2025-11-09"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "KAWAII ANIMATIONS 100",
+          "type": "动画",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1fhaVgvrP14GvE7dcVuL2Gg?pwd=ik9a",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：Fab 无同名商品；搜索引擎仅命中爱给网/淘宝转载，ArtStation 与 Discord 公开检索均无作者或原始许可信息，结束追溯，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1wVnozYEWa",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：Fab 无同名商品；搜索引擎仅命中爱给网/淘宝转载，ArtStation 与 Discord 公开检索均无作者或原始许可信息，结束追溯，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 263,
+      "favorites": 516
+    },
+    {
+      "id": "bv1vtzzy9egq",
+      "bvid": "BV1vTZzY9EGq",
+      "aid": 114250777366063,
+      "url": "https://www.bilibili.com/video/BV1vTZzY9EGq",
+      "title": "这个免费的 虚幻引擎 5 动画包将改变游戏规则",
+      "up": "果果CG",
+      "upMid": 496368347,
+      "views": 305,
+      "publishedAt": "2025-03-31",
+      "keyword": "UE 免费 动画",
+      "desc": "https://www.youtube.com/watch?v=07Q2MVS6P7k\n在本视频中，我们将查看来自 Quaternius 的通用动画库。基本上，这是一个超过 40 个高质量的免费动画，你可以在你的游戏和项目中使用。实际上，它们可以在虚幻引擎、Unity 和 Godot 中免费使用！在本视频中，我将向您展示如何下载、导入和重定向这些动画，这样您就可以将它们设置为您想要的任何角色。\n\n在此免费下载：https://quaternius.com/packs/universalanimationlibrary.html",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "未获取（接口返回空评论）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Universal Animation Library",
+          "type": "动画",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+          "officialUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+          "thirdParty": false,
+          "note": "官网核实为 CC0，可个人/教育/商用，120+ 动画；需在 UE 中重定向到 UE5 人形骨骼。",
+          "resourceId": "quaternius-universal-animation-library",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 10,
+      "favorites": 18
+    },
+    {
+      "id": "bv1kzurzeerg",
+      "bvid": "BV1kZuRzeErg",
+      "aid": 114878815673661,
+      "url": "https://www.bilibili.com/video/BV1kZuRzeErg",
+      "title": "UE5场景天花板！Scifi Railroad Terminal Facility (Nanite)！Nanite极致细节免费白嫖，一键三连速领！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 2032,
+      "publishedAt": "2025-07-19",
+      "keyword": "虚幻引擎 免费 场景",
+      "desc": "兄弟们！今天给大家带来虚幻引擎圈子里公认的科幻场景天花板——Scifi Railroad Terminal Facility (Nanite)！\n\n为什么说它是神级资源？\n✅ 完美支持UE5.0+，Lumen动态光照加持！\n✅ 包含383个高品质Mesh，细节炸裂！\n✅ 极致细节：Nanite虚拟几何技术，海量几何体也能流畅运行！\n✅ 高精度纹理集，真实感爆棚！\n✅ Lumen全动态光照，光影效果媲美电影！\n✅ 丰富的参数控制，粗糙度、反照率、法线随心调！\n✅ 电影级后期处理与LUT，画面效果直逼AAA大作！\n✅ 针对高端游戏优化，性能表现优异！\n\n 本期亮点：\nUE5 Nanite场景细节展示，带你领略未来车站的魅力！\nLumen动态光照在科幻场景中的运用技巧！\n优化思路大公开，让你的UE5项目画质性能两开花！\n\n⚡ 获取方式：\n一键三连支持UP主！\n评论区留言\\\"赛博科幻\\\"或\\\"火车站\\\"！\n\n做游戏的兄弟们，这个插件能让你的项目画质直接起飞！\n\n\n\n\n\n\n\n\n\n\n通过网盘分享的文件 Scifi Railroad Terminal Facility.zip\n链接: https://pan.baidu.com/s/1cOvQ删除我qt7yNOkwWn7pSeXMUA?pwd=cj2m 提取码: cj2m",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "加州当铺",
+          "like": 4,
+          "text": "链接被吞啦",
+          "origin": "评论",
+          "ctime": "2025-07-19"
+        },
+        {
+          "user": "达拉米",
+          "like": 1,
+          "text": "牛[小电视_赞]",
+          "origin": "评论",
+          "ctime": "2025-07-19"
+        },
+        {
+          "user": "Joker摸鱼星",
+          "like": 0,
+          "text": "火车站 已三连",
+          "origin": "评论",
+          "ctime": "2025-07-31"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Scifi Railroad Terminal Facility (Nanite)",
+          "type": "场景",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1cOvQ删除我qt7yNOkwWn7pSeXMUA?pwd=cj2m",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：仅 asset001 第三方转载；ArtStation、Discord 与作者站检索未定位原作者，无法确认原始许可，结束追溯，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1kZuRzeErg",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：仅 asset001 第三方转载；ArtStation、Discord 与作者站检索未定位原作者，无法确认原始许可，结束追溯，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 64,
+      "favorites": 119
+    },
+    {
+      "id": "bv1shrwbdeee",
+      "bvid": "BV1ShRWBDEee",
+      "aid": 116524761225176,
+      "url": "https://www.bilibili.com/video/BV1ShRWBDEee",
+      "title": "白嫖党狂喜！5月免费游戏开发资源大汇总：UnrealUnityGodot通通能用，不领血亏 #游戏开发 #免费资源 #独立游戏 #UnrealEngine",
+      "up": "xcount",
+      "upMid": 351607965,
+      "views": 2035,
+      "publishedAt": "2026-05-06",
+      "keyword": "UE 免费资源",
+      "desc": "五月免费游戏开发资源来啦！本期视频为你整理了一波超实用的零成本资产：Kenny家的输入提示图标包全新更新，新增Steam/Valve Index/Meta等控制器图标；Unity内直接建模绑定的uModeler X现已完全免费，无需登录；Super Splat网站开放了Splat点云场景下载，真实世界扫描随便用；还有Epic Games送出的三大资源——低多边形发电厂工厂模块、300+纹理的镜头光晕特效包、蒸汽朋克机械剑齿虎角色（带全套动画），支持Unreal、Unity、Godot等多引擎互导。不管你是用哪款引擎，这些好东西都值得先囤起来！记得在5月19号前领完，手慢无～\n\nGFS Link - https://gamefromscratch.com/may-2026-gamedev-assets-giveaways/\n\nUnity to Godot Plugin\nhttps://relativegames.gumroad.com/l/unitytogodot?a=290489843\n\nUnreal Engine to Godot Plugin\nhttps://relativegames.gumroad.com/l/unrealtogodot?a=290489843\n\nUnreal to Unity Plugin\nhttps://relativegames.gumroad.com/l/unrealtogodot?a=290489843\n\nUnity to Unreal Plugin\nhttps://gumroad.com/a/735949267/eamdpu\n\nUnreal to Unity Plugin\nhttps://assetstore.unity.com/packages/tools/utilities/exporter-for-unreal-to-for-unity-2026-342498?aid=1011l4rAy\n-------------------------------------------\n*Godot Spring Bundle*: https://gumroad.com/a/704515091/mrctkf \n*Unity Spring Bundle*: https://gumroad.com/a/704515091/wciyp\n*Unreal Spring Bundle*: https://gumroad.com/a/704515091/rxflm\n\nUse Code SP60 for an additional $60 off!\n-------------------------------------------------------------------------\nGuides to Import/Export Assets Between Engines\n-------------------------------------------------------------------------\nNew Unreal to Godot Convertor\nhttps://gamefromscratch.com/unreal-to-godot-amazing-new-exporter-tool/\n\nIs It Legal to Use Unreal Engine Assets in Unity or Godot and Vice Versa:\nhttps://gamefromscratch.com/using-asset-store-assets-in-other-engines-is-it-legal/\n\nUnreal to Godot, Blender or Unity:\nhttps://gamefromscratch.com/exporting-from-unreal-engine-to-godot-unity-or-blender/\n\nMoving From and To Unity in Minutes\nhttps://gamefromscratch.com/moving-from-and-to-the-unity-game-engine",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "未获取（接口返回空评论）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Input Prompts",
+          "type": "UI",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://kenney.nl/assets/input-prompts",
+          "officialUrl": "https://kenney.nl/assets/input-prompts",
+          "thirdParty": false,
+          "note": "Kenney 官网核实为 CC0；含键盘/手柄/Steam Deck 等输入提示图标，已在主目录。",
+          "resourceId": "kenney-input-prompts",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "低多边形发电厂工厂模块",
+          "type": "场景",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": null,
+          "officialUrl": "https://www.fab.com/listings/b6a85679-47f0-4f59-aa6d-da9d5f59aee5",
+          "thirdParty": false,
+          "note": "复核：对应 Nimikko 的 Modular Old Power Plant - 65 Assets；2026-05 Fab 限时免费已结束，当前标价 $29.99，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/listings/b6a85679-47f0-4f59-aa6d-da9d5f59aee5",
+            "priceNote": "$29.99（Fab 现价，2026-05 限免已结束）",
+            "channels": [
+              "B 站视频简介（标注 Epic 5 月限免）",
+              "Fab 商品页直连",
+              "Fab 站内搜索",
+              "Nimikko 作者站"
+            ],
+            "note": "复核：对应 Nimikko 的 Modular Old Power Plant - 65 Assets；2026-05 Fab 限时免费已结束，当前标价 $29.99，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "300+ 纹理镜头光晕特效包",
+          "type": "特效",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": null,
+          "officialUrl": "https://www.fab.com/listings/0e920fbc-fb78-4331-a4e1-878dc3504bad",
+          "thirdParty": false,
+          "note": "复核：对应 TXC STOCK 的 LENS FLARE VFX（300+ 纹理）；2026-05 限免已结束，商品页有 Buy now，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://forums.unrealengine.com/t/toxic-stock-lens-flare-vfx/2674001",
+            "priceNote": "₱2,108.75–₱10,546.64（Fab 页面显示区间，未换算）",
+            "channels": [
+              "Epic 开发者论坛产品帖（作者 TXC STOCK）",
+              "Fab 商品页直连",
+              "Fab 站内搜索 tags=flare"
+            ],
+            "note": "复核：对应 TXC STOCK 的 LENS FLARE VFX（300+ 纹理）；2026-05 限免已结束，商品页有 Buy now，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "蒸汽朋克机械剑齿虎角色",
+          "type": "角色",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": null,
+          "officialUrl": "https://www.fab.com/listings/3413113f-147a-4fc9-bd9f-7c543934969a",
+          "thirdParty": false,
+          "note": "复核：对应 Crazy Vertex 的 Steampunk Mechanical Creature（含动画/VFX）；2026-05 限免已结束，当前有 Buy now，判定已收费，价格未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/listings/3413113f-147a-4fc9-bd9f-7c543934969a",
+            "priceNote": "未获取（页面价格被打码，仅有 Buy now）",
+            "channels": [
+              "B 站同期限免视频（BV1g3RsBsEgB）",
+              "Fab 商品页直连",
+              "Fab 站内搜索",
+              "Google/Bing 多形态搜索"
+            ],
+            "note": "复核：对应 Crazy Vertex 的 Steampunk Mechanical Creature（含动画/VFX）；2026-05 限免已结束，当前有 Buy now，判定已收费，价格未获取。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 22,
+      "favorites": 14
+    },
+    {
+      "id": "bv1rctazzer1",
+      "bvid": "BV1rCTazZEr1",
+      "aid": 114651719275399,
+      "url": "https://www.bilibili.com/video/BV1rCTazZEr1",
+      "title": "【白嫖党狂喜】免费送12G巴黎场景Paris - Fontaine Saint-Michel源文件大放送！1000+模型材质，虚幻5必备！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 10134,
+      "publishedAt": "2025-06-09",
+      "keyword": "虚幻引擎 免费 场景",
+      "desc": "【视频简介】 接上期exe体验版，这次直接上源文件！ \n巴黎圣米歇尔喷泉场景完整版 \n1000+超精细扫描模型、材质、蓝图 \n包含PCG程序化生成系统、交互植被、雨天效果 \n三种光照预设：晨光、黄昏、雨天\n ━━━━━━━━━━━━━━━━━━━━━ \n【获取方式】超简单！\n ━━━━━━━━━━━━━━━━━━━━━\n 一键三连（点赞+投币+收藏）\n\n\n\n\n\n\n\nue5.6已经配置好：通过网盘分享的文件：FontaineSaintMichel.rar\n链接: https://pan.baidu.com/s/17BSBG8yaXZTNeLRsmCbUOw?pwd=ppku 提取码: ppku \n\n\nue5 未配置 :通过网盘分享的文件：Paris - Fontaine Saint-Michel.rar\n链接: https://pan.baidu.com/s/16b_HcqJZEQZ9ylO4_73N9g?pwd=2a6x 提取码: 2a6x\n\n文档：文档【Documentation】 Paris - Fontaine Saint-Michel.pdf\n\n链接: https://pan.baidu.com/s/14w4kj3AtBjX9Lma1f3156Q?pwd=65dm 提取码: 65dm",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "D丿damage",
+          "like": 1,
+          "text": "有版权吗能商用不",
+          "origin": "评论",
+          "ctime": "2025-06-11"
+        },
+        {
+          "user": "头孢配啤酒_",
+          "like": 0,
+          "text": "已三连求资源。能买的那种",
+          "origin": "评论",
+          "ctime": "2026-02-13"
+        },
+        {
+          "user": "吃饱了就去砸车的猪",
+          "like": 0,
+          "text": "已三联，求源文件",
+          "origin": "评论",
+          "ctime": "2025-07-31"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Paris - Fontaine Saint-Michel（巴黎圣米歇尔喷泉场景）",
+          "type": "场景",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/17BSBG8yaXZTNeLRsmCbUOw?pwd=ppku",
+          "officialUrl": "https://www.cgtrader.com/3d-models/scanned/various/fountain-saint-michel-photogrammetry",
+          "thirdParty": true,
+          "note": "复核：原作者 NicolasDiolez 的 Fountain Saint-Michel 为付费扫描模型（CGTrader $40 / TurboSquid $30）；B 站网盘为第三方转载，原始许可为付费，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.cgtrader.com/3d-models/scanned/various/fountain-saint-michel-photogrammetry",
+            "priceNote": "$30（TurboSquid）/ $40（CGTrader 一次性买断）",
+            "channels": [
+              "CGTrader 商品页",
+              "TurboSquid 商品页",
+              "Fab 站内搜索",
+              "B 站视频简介（网盘分享）"
+            ],
+            "note": "复核：原作者 NicolasDiolez 的 Fountain Saint-Michel 为付费扫描模型（CGTrader $40 / TurboSquid $30）；B 站网盘为第三方转载，原始许可为付费，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 614,
+      "favorites": 1106
+    },
+    {
+      "id": "bv1h1swbpexm",
+      "bvid": "BV1H1SwBPEXM",
+      "aid": 115633589065841,
+      "url": "https://www.bilibili.com/video/BV1H1SwBPEXM",
+      "title": "【白嫖免费分享】虚幻引擎资产UE写实场景白嫖免费分享",
+      "up": "千叶绮梦",
+      "upMid": 597574782,
+      "views": 1217,
+      "publishedAt": "2025-11-29",
+      "keyword": "虚幻引擎 免费 场景",
+      "desc": "【超级会员V6】通过百度网盘分享的文件：UE村庄，农场，…\n链接:https://pan.baidu.com/s/1IciJcEvSRwINAv_n7RdNBA?pwd=28kz \n复制这段内容打开「百度网盘APP 即可获取」",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "等阿布的旅行者",
+          "like": 3,
+          "text": "失踪人口回归[吃瓜]",
+          "origin": "评论",
+          "ctime": "2025-11-29"
+        },
+        {
+          "user": "千叶绮梦",
+          "like": 3,
+          "text": "关注UP主\n后台私信惊喜\n会有惊喜链接\n三连关注\n下次白嫖不迷路\n下载链接来自互联网搜集和网友提供，仅供学习研究使用，不得用于商业用途，请在24小时内删除！\n版权归原作者及其公司所有，如果你喜欢，请购买正版。如果侵权，请联系删除\n【超级会员V6】通过百度网盘分享的文件：UE村庄，农场，…\n链接:https://pan.baidu.com/s/1IciJcEvSRwINAv_n7RdNBA?pwd=28kz \n复制这段内容打开「百度网盘APP 即可获取」",
+          "origin": "评论",
+          "ctime": "2025-11-29"
+        },
+        {
+          "user": "柑味巧克力",
+          "like": 1,
+          "text": "外派开除有N+1拿不",
+          "origin": "评论",
+          "ctime": "2025-11-30"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "UE 写实场景合集（村庄/农场，具体名称未获取）",
+          "type": "场景",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1IciJcEvSRwINAv_n7RdNBA?pwd=28kz",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：以视频标题、UP 名、网盘文件名反查，未命中作者主页/ArtStation/Discord/原始发布站，结束追溯，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1H1SwBPEXM",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：以视频标题、UP 名、网盘文件名反查，未命中作者主页/ArtStation/Discord/原始发布站，结束追溯，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "UE 写实场景合集（村庄/农场，具体名称未获取）",
+          "type": "场景",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "评论",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1IciJcEvSRwINAv_n7RdNBA?pwd=28kz",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：以视频标题、UP 名、网盘文件名反查，未命中作者主页/ArtStation/Discord/原始发布站，结束追溯，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1H1SwBPEXM",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：以视频标题、UP 名、网盘文件名反查，未命中作者主页/ArtStation/Discord/原始发布站，结束追溯，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 77,
+      "favorites": 85
+    },
+    {
+      "id": "bv1hvknzdecp",
+      "bvid": "BV1HVKnzdEcp",
+      "aid": 114742433682783,
+      "url": "https://www.bilibili.com/video/BV1HVKnzdEcp",
+      "title": "【白嫖】两套风格化小屋，关注UP获取",
+      "up": "猫花CG",
+      "upMid": 490206757,
+      "views": 3591,
+      "publishedAt": "2025-06-25",
+      "keyword": "UE5 免费资源",
+      "desc": "【白嫖】两套风格化小屋，一键三连关注UP获取\nUP 每周都分享优质资产，关注UP不迷路，不错过每周精彩的分享。\n\n【第一套】河边小屋环境有 73 独一无二的几何体，271个贴图，高质量的资产，已为游戏项目优化，\n支持UE 5.3 到 5.6\n【第二套】卡通山坡小屋有 93 个几何体组成，有84个贴图，支持UE5.1 到 5.6\n\n\n\n\n\n\n\n\n通过网盘分享的文件：two houses\n链接: https://pan.baidu.com/s/1fwbsUsZ3TIied3op0eJI6g?pwd=yxs7 提取码: yxs7 \n--来自百度网盘超级会员v8的分享",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "程序员阿杜",
+          "like": 0,
+          "text": "感谢感谢",
+          "origin": "评论",
+          "ctime": "2025-07-17"
+        },
+        {
+          "user": "章鱼哥哥的美妙音乐",
+          "like": 0,
+          "text": "已三连",
+          "origin": "评论",
+          "ctime": "2025-06-25"
+        },
+        {
+          "user": "-这个人好像一条狗哎-",
+          "like": 0,
+          "text": "感谢感谢[给心心]",
+          "origin": "评论",
+          "ctime": "2025-06-25"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "风格化河边小屋环境",
+          "type": "场景",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1fwbsUsZ3TIied3op0eJI6g?pwd=yxs7",
+          "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/house-along-the-river",
+          "thirdParty": true,
+          "note": "最后一轮作者名反查命中：原名 House Along the River，作者 StylArts；官方商品页写明 73 Unique Meshes、$49.99、UE 5.3–5.4，与 B 站简介 73 几何体/271 贴图一致。判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://link.unrealengine.com/marketplace/en-US/product/house-along-the-river/questions",
+            "priceNote": "$49.99（官方商品页标价，USD）",
+            "channels": [
+              "Fab/UE Marketplace 商品页",
+              "搜索引擎（英文原名 + 特征）",
+              "ArtStation/Discord 作者线索核对"
+            ],
+            "note": "最后一轮作者名反查命中：原名 House Along the River，作者 StylArts；官方商品页写明 73 Unique Meshes、$49.99、UE 5.3–5.4，与 B 站简介 73 几何体/271 贴图一致。判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        },
+        {
+          "name": "卡通山坡小屋",
+          "type": "场景",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1fwbsUsZ3TIied3op0eJI6g?pwd=yxs7",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：检索到 StylArts 的 Stylized Azure Hillside（93 Assets）与「93 个几何体」接近，但商品页未列 84 贴图与房屋明细，证据不足；ArtStation/Discord 未给出作者确认，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1HVKnzdEcp",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：检索到 StylArts 的 Stylized Azure Hillside（93 Assets）与「93 个几何体」接近，但商品页未列 84 贴图与房屋明细，证据不足；ArtStation/Discord 未给出作者确认，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 72,
+      "favorites": 80
+    },
+    {
+      "id": "bv1wn9mb8egc",
+      "bvid": "BV1WN9MB8EGc",
+      "aid": 116340832607638,
+      "url": "https://www.bilibili.com/video/BV1WN9MB8EGc",
+      "title": "UE5 开发神器：蓝图节点预设插件 — 支持多节点打组 / 快捷键 / 拖拽插入 / 材质编辑器",
+      "up": "Huang_DaDa丶",
+      "upMid": 313806787,
+      "views": 2421,
+      "publishedAt": "2026-04-03",
+      "keyword": "UE 插件 推荐",
+      "desc": "还在为反复搭建相同的蓝图节点组合而头疼吗？\n每次新建蓝图，都要重新拖节点、连引脚、调参数——做界面要搭一套 Get/Set，写逻辑要拼一串 Sequence，搞材质又要手动摆放Expression……重复操作浪费大量时间，真正写逻辑的精力反而被消耗殆尽。\nUPNodePresets 就是为了解决这个问题而生的。\n这是一款专为 UE5 编辑器打造的蓝图节点预设插件，核心思路只有四个字：收藏 → 复用。\n把你常用的节点配置一键保存为预设，下次需要时通过右键搜索、快捷键或拖拽，秒速插入到任意蓝图或材质图中。不管是单个节点还是多节点组合，统统支持。\n\n它能做什么？\n在蓝图或材质编辑器中选中任意节点，右键即可保存为预设。支持多节点打组收藏，整组配置连同连线结构一起打包带走。\n\n多种插入方式\n - Action Palette 搜索：右键空白处搜索预设名称，回车即插入\n - 快捷键插入：按住数字键 0~9 + 鼠标左键点击任意位置，瞬间插入（Blueprint / Material 独立绑定）\n - 拖拽插入：从管理面板直接拖到蓝图编辑器，松手即放置\n - 右键菜单：选中节点右键快速收藏/编辑/移除\n分组管理\n按功能模块自由分组，管理面板支持搜索过滤、分组切换、批量导入导出。换个项目？导出 JSON 文件一键迁移。\n材质编辑器同样适用\n插件同时支持 Blueprint、Widget Blueprint (UMG) 和 Material Editor，材质表达式预设一样收藏复用。\n\n插件地址：https://www.fab.com/zh-cn/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "最苦无山遮望眼",
+          "like": 0,
+          "text": "[魔法少女的魔女审判表情包_一定是..]",
+          "origin": "评论",
+          "ctime": "2026-04-05"
+        },
+        {
+          "user": "没人理的天才",
+          "like": 0,
+          "text": "你好，日常水你，随便支持一下。真正的天才路过，然后留点东西，防被人说。只有天才才能正面回答，你是不是东西？这个问题不会被骂到。只有天才才能想出田忌赛马第二种不违反规则赢法。随机字系列”《彼得·潘》。20世纪以后的奇幻小说，则竭力营造庞大的",
+          "origin": "评论",
+          "ctime": "2026-04-05"
+        },
+        {
+          "user": "没人理的天才",
+          "like": 0,
+          "text": "为什么不火，这么好？？",
+          "origin": "评论",
+          "ctime": "2026-04-05"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "UPNodePresets",
+          "type": "插件",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+          "officialUrl": "https://www.fab.com/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+          "thirdParty": false,
+          "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；具体价格未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+            "priceNote": "未获取",
+            "channels": null,
+            "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；具体价格未获取。"
+          }
+        }
+      ],
+      "likes": 358,
+      "favorites": 189
+    },
+    {
+      "id": "bv1peptzserw",
+      "bvid": "BV1pEptzsErW",
+      "aid": 115219275913124,
+      "url": "https://www.bilibili.com/video/BV1pEptzsErW",
+      "title": "【火爆】IMPERFECTER免费送！UE电影级画面插件，一键三连即可拥有！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 2837,
+      "publishedAt": "2025-09-17",
+      "keyword": "UE 插件 推荐",
+      "desc": "兄弟们！今天给大家带来虚幻引擎圈子里超实用的后期处理神级插件——IMPERFECTER - Post Process Toolkit！\n\n为什么说它是神级插件？\n它专注于模拟各种真实的摄影机缺陷，是Found-Footage、Bodycam、数码相机和模拟胶片风格项目的首选插件！给你的项目带来电影般的真实感和沉浸感。\n\n核心功能一览：\n支持UE全版本：从UE4到最新UE5.6版本！\n模块化设计：提供色差、压缩伪影、胶片损坏、光晕、镜头污垢、畸变、噪点颗粒等十余种效果，可自由组合调整。\n全球着色器：插入虚幻引擎渲染管线，实现传统后期材质难以企及的复杂效果。\n高效性能：所有效果均实时生成，并经过性能优化，让你的画面瞬间提升，不拖垮帧率。\n便捷工作流：自定义编辑器窗口，支持预设保存与加载，通过“Imperfecter Instances”轻松应用与调整。\n\n本期亮点：\n深度解析IMPERFECTER如何打造极致真实画面。\n多种电影级画面效果叠加技巧。\n如何快速上手，让你的项目画质直线上升！\n\n获取方式：\n一键三连支持UP主\n评论区留言“IMPERFECTER”\n\n做游戏的兄弟们，这个插件能让你的项目画面直接提升一个档次，轻松实现电影大片质感！\n\n\n\n\n\n\n\n\n\n\n\n\n通过网盘分享的文件：1120. IMPERFECTER - Post Process Toolkit (1).zip\n链接: https://pan.baidu.com/s/15RGjqAiI40ELu489Cte-GQ?pwd=qfkk 提取码: qfkk",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "青蛙频道",
+          "like": 1,
+          "text": "大家都想要的同款，都在这里啦！ https://b23.tv/mall-p9U2-sjV8",
+          "origin": "评论",
+          "ctime": "2025-09-18"
+        },
+        {
+          "user": "青蛙频道",
+          "like": 1,
+          "text": "大家都想要的同款，都在这里啦！ https://b23.tv/mall-p9U2-qm7G",
+          "origin": "评论",
+          "ctime": "2025-09-18"
+        },
+        {
+          "user": "Rie1990",
+          "like": 0,
+          "text": "IMPERFECTER",
+          "origin": "评论",
+          "ctime": "2026-09-02"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "IMPERFECTER - Post Process Toolkit",
+          "type": "插件",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/15RGjqAiI40ELu489Cte-GQ?pwd=qfkk",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "复核：Fab 分类页显示起售价 ₹7,968.65，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "paid",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/category/tool-and-plugin/engine-tools",
+            "priceNote": "₹7,968.65 起",
+            "channels": null,
+            "note": "复核：Fab 分类页显示起售价 ₹7,968.65，判定已收费。"
+          }
+        }
+      ],
+      "likes": 161,
+      "favorites": 320
+    },
+    {
+      "id": "bv1hhcjbseqa",
+      "bvid": "BV1HHCjBsEQa",
+      "aid": 115534905479340,
+      "url": "https://www.bilibili.com/video/BV1HHCjBsEQa",
+      "title": "1GB的VDB压缩到250MB？这个免费UE插件让实时体积特效成为可能！",
+      "up": "虚幻仙贝",
+      "upMid": 3546973751741371,
+      "views": 3358,
+      "publishedAt": "2025-11-12",
+      "keyword": "UE 免费 特效",
+      "desc": "你是否曾经因为VDB文件体积巨大、性能开销过高，而放弃在虚幻引擎（Unreal Engine）中实现酷炫的实时体积特效？还在为复杂的着色器设置和优化问题而头疼吗？\n这个视频将为你介绍一个颠覆性的解决方案——完全免费的 Zebra VDB 插件！它将彻底改变你在UE5中使用VDB（如烟雾、火焰、爆炸、云雾等）的方式，让电影级的体积特效在游戏中实时、流畅地运行成为可能。\n在本教程中，你将学到：\n插件安装与配置： 从下载、安装到激活许可证，一步步带你完成Zebra VDB插件的全部设置。\n核心功能与参数详解： 深入了解插件提供的各项渲染设置，包括密度、颜色、温度、阴影以及质量控制等，让你能完全掌控VDB的外观和性能。\nVDB压缩工作流： 本视频最核心的部分！学习如何将来自Houdini、Blender或Embergen等软件、动辄数GB的VDB序列，通过插件内置的压缩工具，高效地压缩成专有的、极度优化的.zebraVDB格式。\n实战应用： 我们将演示如何在场景中同时运行多个复杂的VDB动画序列（爆炸、冲击波等），并依然保持流畅的实时帧率，见证其强大的性能。\n告别过去繁琐低效的VDB流程，拥抱这个为实时应用而生的强大工具！无论你是游戏开发者、特效师还是影视动画师，这个工作流都将极大地拓展你的创作边界。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "苏diao羊",
+          "like": 7,
+          "text": "并非免费，免费只能用他们提供的几种vdb，自己需要制作的vdb进行压缩还需要付费[doge]",
+          "origin": "评论",
+          "ctime": "2025-11-12"
+        },
+        {
+          "user": "虔虔琴心亹亹德音",
+          "like": 3,
+          "text": "亲测免费能用，压缩效率确实高",
+          "origin": "评论",
+          "ctime": "2025-11-16"
+        },
+        {
+          "user": "guangzi888",
+          "like": 0,
+          "text": "真是houdini的亲爹了现在",
+          "origin": "评论",
+          "ctime": "2025-11-19"
+        }
+      ],
+      "commentStatus": "已获取（热门评论排序，非置顶接口）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "ZibraVDB（Personal Tier）",
+          "type": "插件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/listings/23aef313-3c6a-40ea-810d-35de2ea5bca2",
+          "officialUrl": "https://www.fab.com/listings/23aef313-3c6a-40ea-810d-35de2ea5bca2",
+          "thirdParty": false,
+          "note": "同一 ZibraVDB 资源，与 BV1M2vPzcEHw 聚合；免费个人版，评论区说明自定义 VDB 压缩需付费。",
+          "resourceId": "fab-zibravdb-personal",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "likes": 75,
+      "favorites": 396
+    },
+    {
+      "id": "bv1pq2aymelz",
+      "bvid": "BV1pq2AYMELz",
+      "aid": 113277329736863,
+      "url": "https://www.bilibili.com/video/BV1pq2AYMELz",
+      "title": "免费分享 虚幻引擎5_动画库",
+      "up": "Ther_既白",
+      "upMid": 3546776543955131,
+      "views": 7,
+      "publishedAt": "2024-10-09",
+      "keyword": "UE 免费 动画",
+      "desc": "动画库\nAnimations Library\n素材下载链接:https://pan.baidu.com/s/1Ub28AWRmC0mTxI96TXF3KQ?pwd=fjqp\n分享的是合集, 如果链接失效, 可找到最新的视频, 获取有效的下载链接, 内容都是一样的, 因为分享的是合集\n感谢支持",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "未获取（接口返回空评论）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名 player/v2 字幕列表为空，需登录 Cookie；未绕过登录）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "虚幻引擎5 动画库合集（具体名称未获取）",
+          "type": "动画",
+          "free": false,
+          "status": "unverifiable",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1Ub28AWRmC0mTxI96TXF3KQ?pwd=fjqp",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "最后一轮作者名反查（2026-11-04）：以「Animations Library / 动画库」+ UP 名反查，命中均为泛称与转载，无法锁定具体作者与许可，结束追溯，保持 unverifiable。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "unverifiable",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.bilibili.com/video/BV1pq2AYMELz",
+            "priceNote": null,
+            "channels": [
+              "Fab 站内搜索",
+              "搜索引擎原名/特征检索",
+              "ArtStation 公开检索",
+              "Discord 公开频道检索",
+              "作者站/原始发布站"
+            ],
+            "note": "最后一轮作者名反查（2026-11-04）：以「Animations Library / 动画库」+ UP 名反查，命中均为泛称与转载，无法锁定具体作者与许可，结束追溯，保持 unverifiable。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 0,
+      "favorites": 0
+    },
+    {
+      "id": "bv1npdjytebb",
+      "bvid": "BV1npdjYtEbB",
+      "aid": 114298307219646,
+      "url": "https://www.bilibili.com/video/BV1npdjYtEbB",
+      "title": "【中配】免费真实第一人称动作模板 FREE Realistic True First Person Movement Template",
+      "up": "巡逻猫",
+      "upMid": 37183063,
+      "views": 10326,
+      "publishedAt": "2025-04-08",
+      "keyword": "UE 免费 蓝图",
+      "desc": "在本视频中，我将引导您快速轻松地在虚幻引擎5 中设置逼真的真实第一人称运动模板。这个是完全免费的，并添加了一些非常身临其境的功能——比如可见的腿、流畅的蹲伏、滑动、冲刺、缩放，甚至倾斜机制。 我将向您展示它在游戏中的外观，如何从 Fab Marketplace 安装它，以及如何调整头部摆动、移动速度等内容。无论您是在制作 FPS 还是只想让您的游戏感觉更上一层楼，此模板都是一个完美的起点。\n别忘了点击关注以获取更多类似的虚幻教程，如果您觉得它有帮助，请在评论中告诉我！\nFab页面：https://www.fab.com/zh-cn/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "多喝水-n_n",
+          "like": 4,
+          "text": "下载完了才发现是要5.5版本的。大家注意[笑哭]我",
+          "origin": "评论",
+          "ctime": "2025-04-10 00:18"
+        },
+        {
+          "user": "百事不如可口_",
+          "like": 1,
+          "text": "你好，我想问一下怎么把这个添加到其他工程内",
+          "origin": "评论",
+          "ctime": "2025-09-19 10:45"
+        },
+        {
+          "user": "愿你我都好-",
+          "like": 1,
+          "text": "关注你使我快乐",
+          "origin": "评论",
+          "ctime": "2025-04-21 11:02"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Realistic True First-Person Movement Template V1",
+          "type": "模板",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.fab.com/zh-cn/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+          "officialUrl": "https://www.fab.com/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+          "thirdParty": false,
+          "note": "Fab 个人许可免费，专业许可 Rp 297,927 起；4.8/129，UE5.3–5.7。商用前确认许可。",
+          "resourceId": "fab-true-first-person-template",
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+            "priceNote": "免费–Rp 297,927",
+            "channels": null,
+            "note": "个人版免费，专业版付费"
+          }
+        }
+      ],
+      "likes": 313,
+      "favorites": 799
+    },
+    {
+      "id": "bv12c5lzuew7",
+      "bvid": "BV12C5LzuEw7",
+      "aid": 114477085233178,
+      "url": "https://www.bilibili.com/video/BV12C5LzuEw7",
+      "title": "UE5.4带PCG模板的免费自动地形材质及教程 FREE Auto Landscape Material with PCG templates",
+      "up": "巡逻猫",
+      "upMid": 37183063,
+      "views": 2768,
+      "publishedAt": "2025-05-09",
+      "keyword": "UE 免费 材质",
+      "desc": "很高兴能够宣布发布适用于虚幻引擎 5.4 及更高版本的带有 PCG 模板的免费自动地形材质。您可以在 https://ko-fi.com/s/8e038bb081 中找到数字下载。 此视频介绍了如何下载和安装该工具，通过示例介绍了所有主要功能，最后向您展示了如何将其应用于您自己的自定义关卡。\n百度盘链接: https://pan.baidu.com/s/1nx-WO_mJeqcNn9iMN3dr_w?pwd=qadf",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "UB Auto Landscape Material（含 PCG 模板）",
+          "type": "材质",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://ko-fi.com/s/8e038bb081",
+          "officialUrl": "https://ko-fi.com/s/8e038bb081",
+          "thirdParty": false,
+          "note": "复核：作者 Ko-fi 商品页可打开且描述完整，视频标题/简介均标注 FREE Auto Landscape Material，判定免费可获取；页面未显示价格字段，以作者自述为准。",
+          "resourceId": null,
+          "checkedAt": "2026-11-04",
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "free",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://ko-fi.com/s/8e038bb081",
+            "priceNote": "免费（作者 Ko-fi 商品页，视频标题标注 FREE）",
+            "channels": [
+              "作者 Ko-fi 商品页",
+              "B 站视频简介与标题",
+              "Fab 站内搜索",
+              "Google/Bing"
+            ],
+            "note": "复核：作者 Ko-fi 商品页可打开且描述完整，视频标题/简介均标注 FREE Auto Landscape Material，判定免费可获取；页面未显示价格字段，以作者自述为准。"
+          }
+        }
+      ],
+      "likes": 57,
+      "favorites": 178
+    },
+    {
+      "id": "bv1gc4y1y7hu",
+      "bvid": "BV1GC4y1Y7hu",
+      "aid": 793541982,
+      "url": "https://www.bilibili.com/video/BV1GC4y1Y7hu",
+      "title": "想在UE4/UE5实现顶级的UI材质效果？不知道怎么做？没资源？没案列？资源、案列，这有！！",
+      "up": "混迹中的咸鱼",
+      "upMid": 668352616,
+      "views": 1053,
+      "publishedAt": "2024-01-09",
+      "keyword": "UE 免费 材质",
+      "desc": "虚幻商场提供了免费的项目，UIMaterialLab，里面有很多在UI上使用的材质，大家可以下载下来根据自己的需求学习一下\nSDF也有大神的文档：https://www.artstation.com/blogs/briz/gg1a/2d-sdf-gradientflowmap-and-aa-technique-material-function-library-ue5（此处我用了公司的科学上网打开的）有向距离场，实现很多效果时候，用得上，建议大家都去学学\n微元素上也提供很多资源，比如法线贴图什么的，大家学习材质时候它可以提供资源：https://www.element3ds.com/plugin.php?id=rwsearch&words=zb%B3%A1%BE%B0",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "微风细雨入画来",
+          "like": 1,
+          "text": "看着你写代码这么熟练的份上，我给你个关注。[打call][打call][打call]",
+          "origin": "评论",
+          "ctime": "2024-02-02 14:48"
+        },
+        {
+          "user": "远离UE5AndCodex",
+          "like": 1,
+          "text": "支持 早日火！！",
+          "origin": "评论",
+          "ctime": "2024-01-11 08:44"
+        },
+        {
+          "user": "丨丶犬来八荒丨",
+          "like": 0,
+          "text": "UIMaterialLab 这个没有了啊",
+          "origin": "评论",
+          "ctime": "2024-02-02 09:40"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "UI Material Lab",
+          "type": "UI 套件",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab",
+          "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab",
+          "thirdParty": false,
+          "note": "Epic 官方免费示例：40 个 UI 材质函数、100+ 示例、5.0/38。",
+          "resourceId": "fab-ui-material-lab",
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab",
+            "priceNote": "免费",
+            "channels": null,
+            "note": "Epic 官方免费示例"
+          }
+        }
+      ],
+      "likes": 23,
+      "favorites": 104
+    },
+    {
+      "id": "bv1wvdvbeeap",
+      "bvid": "BV1wvDVBeEAP",
+      "aid": 116350496281849,
+      "url": "https://www.bilibili.com/video/BV1wvDVBeEAP",
+      "title": "免费白嫖Advanced Locomotion v2.4！UE5.2+数据驱动移动天花板",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 4305,
+      "publishedAt": "2026-04-06",
+      "keyword": "UE 免费 角色 动画",
+      "desc": "兄弟们！今天直接上硬菜——Advanced Locomotion Component v2.4，圈内公认的UE5角色移动天花板！\n\n⚡ 获取姿势：评论区打【移动】，一键三连马上发车！\n\n🔥 为什么说是神级？\n✅ 全版本通杀：UE4/UE5骨架无缝切换，5.2以上直接起飞\n✅ 数据驱动！告别恶心ABP，动画、速度全在DataTable里配，策划都能改\n✅ UE5新特性拉满：Distance Matching + Pose Warping + LinkedAnimGraph，丝滑到怀疑人生\n✅ 零侵入！不用改父类，拖个组件就能跑，老项目无痛升级\n✅ 逆天Overlay系统：几根骨头几张图，十分钟捏出新姿势，Kubold/WeaponMaster/Paragon动画秒级兼容\n\n⚠️ 友情提示：\n- 美术资源不在包里，但白送Lyra动画Demo，够用！\n- 需要一定基础，纯小白先收藏再进阶\n\n想让你的角色从走路到飞檐走壁都帅出残影？冲它就对了！评论区【移动】+三连，资源链接马上甩你脸上！\n\n\n\n\n\n\n\n\n\n\n\n下载地址: 【超级会员V9】通过百度网盘分享的文件：Advanced Locomotion Component v2 4.rar\n链接：https://pan.baidu.com/s/1Ft41EotumOkI1XucWQ7qkQ?pwd=e572\n提取码：e572",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "jo_ffer",
+          "like": 13,
+          "text": "Fab价格619.35~688.18RMB.谁家的奶茶啊.",
+          "origin": "评论",
+          "ctime": "2026-04-07 23:26"
+        },
+        {
+          "user": "Momo工作室",
+          "like": 0,
+          "text": "【移动】",
+          "origin": "评论",
+          "ctime": "2026-04-28 20:28"
+        },
+        {
+          "user": "ochibana",
+          "like": 0,
+          "text": "移动",
+          "origin": "评论",
+          "ctime": "2026-04-26 00:12"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Advanced Locomotion Component v2.4",
+          "type": "动画",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1Ft41EotumOkI1XucWQ7qkQ?pwd=e572",
+          "officialUrl": null,
+          "thirdParty": true,
+          "note": "视频标免费但实为网盘分享；评论区称 Fab 售价 619–688 元，官方页面未获取。第三方网盘未核实安全性。",
+          "resourceId": null
+        }
+      ],
+      "likes": 228,
+      "favorites": 499
+    },
+    {
+      "id": "bv1rv2my7eyz",
+      "bvid": "BV1Rv2mY7EYZ",
+      "aid": 113287782013551,
+      "url": "https://www.bilibili.com/video/BV1Rv2mY7EYZ",
+      "title": "素材免费下载 虚幻5UE5_女性动作捕捉动画包",
+      "up": "Shylie_故里",
+      "upMid": 3546774165784678,
+      "views": 40,
+      "publishedAt": "2024-10-11",
+      "keyword": "UE 免费 角色 动画",
+      "desc": "女性动作捕捉动画包\nFemale Animation Pack Mocap\n素材下载链接:https://pan.baidu.com/s/1aBeEKTV9paHpZ5_R6ZmUPw?pwd=jwne\n分享的是合集, 如果链接失效, 可找到最新的视频, 获取有效的下载链接, 内容都是一样的, 因为分享的是合集\n感谢支持",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Female Animation Pack Mocap",
+          "type": "动画",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1aBeEKTV9paHpZ5_R6ZmUPw?pwd=jwne",
+          "officialUrl": "https://www.fab.com/listings/66115ef2-8db3-442d-a331-d65c8c7e011d",
+          "thirdParty": true,
+          "note": "复核：Mocap Factory 的 Female Animation Pack Mocap，商品页标价 $19.99，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/female-animation-pack-mocap",
+            "priceNote": "$19.99（Fab 许可区间 $14.99–$19.99）",
+            "channels": [
+              "Fab 商品页直连",
+              "UE Marketplace 商品页",
+              "Mocap Factory 卖家页",
+              "Fab 站内搜索"
+            ],
+            "note": "复核：Mocap Factory 的 Female Animation Pack Mocap，商品页标价 $19.99，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 0,
+      "favorites": 0
+    },
+    {
+      "id": "bv1vewxzzeyc",
+      "bvid": "BV1VewXzZEYC",
+      "aid": 116243893983925,
+      "url": "https://www.bilibili.com/video/BV1VewXzZEYC",
+      "title": "【UE5】生存游戏音效 Survival Sound Effects",
+      "up": "CGalpha",
+      "upMid": 9789290,
+      "views": 51,
+      "publishedAt": "2026-03-17",
+      "keyword": "UE 免费 音频",
+      "desc": "https://www.cgalpha.com/archives/95853.html\n~~~资产下载链接 ~~~~\n我们的生存音效包包含 240 种生存主题音效，是您下次冒险的完美之选。其中包括生存音效、采集音效、用户界面音效、移动音效和制作音效。\n生存类音效包括烹饪、武器、生火、急救和狩猎。采集类音效包括采矿、伐木、耕作和捕鱼。制作类音效包括锻造、建造、裁剪和冶炼。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Survival Sound Effects（240 种生存音效）",
+          "type": "音频",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.cgalpha.com/archives/95853.html",
+          "officialUrl": "https://www.fab.com/listings/8f38ed87-c99a-4799-891c-36dfd9509eef",
+          "thirdParty": true,
+          "note": "复核：Gravity Sound 的 Survival Sound Effects（240 条），Fab 页面有 Buy now / Add to cart，判定已收费，具体金额未获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/listings/8f38ed87-c99a-4799-891c-36dfd9509eef",
+            "priceNote": "未获取（页面有 Buy now / Add to cart）",
+            "channels": [
+              "Fab 商品页直连",
+              "Gravity Sound 卖家页",
+              "Epic Stock Media 商品页",
+              "cgalpha 转载页"
+            ],
+            "note": "复核：Gravity Sound 的 Survival Sound Effects（240 条），Fab 页面有 Buy now / Add to cart，判定已收费，具体金额未获取。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 3,
+      "favorites": 1
+    },
+    {
+      "id": "bv11gqdype24",
+      "bvid": "BV11gqdYPE24",
+      "aid": 113655488186023,
+      "url": "https://www.bilibili.com/video/BV11gqdYPE24",
+      "title": "【虚幻引擎 | UE5 | UE4】基本环境音效包 (免费)_Essential Ambience SFX Pack (FREE)_17717815404770",
+      "up": "bili_97730550776",
+      "upMid": 3546810494749512,
+      "views": 17,
+      "publishedAt": "2024-12-15",
+      "keyword": "UE 免费 音频",
+      "desc": "素材下载链接:https://pan.baidu.com/s/1cvJayNJXdQX6h7vx3pdidA?pwd=yehj\n备用下载链接:https://www.pintuanbai.cn/34724/\n分享的是合集, 如果链接失效, 可找到最新的视频, 获取有效的下载链接, 内容都是一样的, 因为分享的是合集\n感谢支持",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Essential Ambience SFX Pack (FREE)",
+          "type": "音频",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1cvJayNJXdQX6h7vx3pdidA?pwd=yehj",
+          "officialUrl": "https://www.fab.com/listings/c4e9f60e-f1c1-433c-8b1b-fb5867da0d64",
+          "thirdParty": true,
+          "note": "复核：Sound Kajiya 的 Essential Ambience SFX 在 Fab 卖家页标 From Free，商品页可打开，判定免费可获取。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "free",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/sellers/Sound%20Kajiya",
+            "priceNote": "免费（Fab 卖家页 From Free）",
+            "channels": [
+              "Fab 卖家页 Sound Kajiya",
+              "Fab 商品页",
+              "Unity Asset Store（已下架，仅作旁证）",
+              "第三方集合站"
+            ],
+            "note": "复核：Sound Kajiya 的 Essential Ambience SFX 在 Fab 卖家页标 From Free，商品页可打开，判定免费可获取。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 0,
+      "favorites": 1
+    },
+    {
+      "id": "bv1yu411u7km",
+      "bvid": "BV1YU411U7kM",
+      "aid": 1906325185,
+      "url": "https://www.bilibili.com/video/BV1YU411U7kM",
+      "title": "【UE4/5】收获音效包 Harvesting Sound FX Pack",
+      "up": "CGalpha",
+      "upMid": 9789290,
+      "views": 137,
+      "publishedAt": "2024-07-29",
+      "keyword": "UE 免费 音频",
+      "desc": "https://www.cgalpha.com/archives/67201.html\n~~ 资产下载链接 ~~\n使用 Ovani Sound 的 Harvesting Sound FX Pack 让您的观众沉浸在自然世界中。这个精心制作的合集提供了各种受收获活动启发的高品质声音，非常适合增强项目的真实感和氛围。\n该包共有 196 个经过精细调整的声音文件，涵盖了与收获相关的广泛听觉体验：\n\n28 种钓鱼声音：通过真实的钓鱼音效将观众带到宁静的水域，非常适合湖畔场景。\n44 种园艺声音：通过各种与园艺相关的声音效果，让花园的宁静充满生机。\n3 种烹饪声音：利用真实的烹饪音效（包括咝咝声和切菜声）营造烹饪场景的气氛。\n57 种采矿声音：通过动态采矿音效探索地球深处，非常适合地下场景。\n30 种木材声音：通过详细的与木材相关的音效捕捉木工的质朴魅力。\n16 种杂项声音：探索更多与收获相关的声音，以增加多功能性。\n18 种工作声音：使用各种与工作相关的声音效果增强劳动和生产力的场景。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Harvesting Sound FX Pack（Ovani Sound，196 个音效）",
+          "type": "音频",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.cgalpha.com/archives/67201.html",
+          "officialUrl": "https://ovanisound.com/collections/sfx-genre-foley",
+          "thirdParty": true,
+          "note": "复核：Ovani Sound 官方商店 Harvesting Sound FX Pack 标价 S$26–27，判定已收费；cgalpha 仅为第三方转载。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://ovanisound.com/collections/sfx-genre-foley",
+            "priceNote": "S$26–27（Ovani Sound 官方商店）",
+            "channels": [
+              "Ovani Sound 官方商店",
+              "Ovani Sound 商品合集页",
+              "asset001 转载页",
+              "Fab 站内搜索"
+            ],
+            "note": "复核：Ovani Sound 官方商店 Harvesting Sound FX Pack 标价 S$26–27，判定已收费；cgalpha 仅为第三方转载。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 5,
+      "favorites": 1
+    },
+    {
+      "id": "bv1j2nae8efv",
+      "bvid": "BV1J2Nae8Efv",
+      "aid": 113979942838251,
+      "url": "https://www.bilibili.com/video/BV1J2Nae8Efv",
+      "title": "【UE5免费白嫖资产 - (特效) 】-超酷炫高级烟花蓝图系统",
+      "up": "Cgtall_com",
+      "upMid": 3546578870602485,
+      "views": 385,
+      "publishedAt": "2025-02-10",
+      "keyword": "UE 免费 特效",
+      "desc": "---资产下载链接--\nhttps://www.cgtall.com/17226.html\n\n资源类型：UE特效\n支持软件：UE5.0+\n文件格式：UAssets\n包含内容：VFX\n\n\n\n先进的烟花系统允许灵活且轻松地创建自定义烟花变体。它用户友好且方便，即使是初学者也能轻松使用。\n这个烟花系统不同于标准烟花。 它在 GPU 上使用 Niagara。由于事件处理器在 GPU 上无法工作，但又需要生成大量粒子并保持良好的性能，因此该系统按以下方式运行：\n烟花发射器 – 烟花是通过蓝图发射的，该蓝图使用线速度以随机角度（由用户确定）触发烟花火箭。\n这种方法避免使用 Niagara 事件处理程序，使系统能够利用 GPU 以优化的性能处理大量粒子。\n烟花火箭 – 这是发射烟花的蓝图。信息传递给新创建的火箭，该火箭在其生命周期结束后，将触发一个 Niagara 爆炸效果。\n\n设置 – 设置分为三个部分：火箭，爆炸，和 轨迹。\n火箭设置: 飞行速度、寿命、飞行角度、纹理、颜色、大小和旋转。\n\n爆炸类型（9 个模块）：爆炸、圆盘、图像、辐射、丝带、烟花、飞溅、尾巴 1、尾巴 2。\n\n小径类型（3 种类型）：简单火花、螺旋火花、烟雾。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "Ainerce",
+          "like": 0,
+          "text": "互相点赞赞👍[doge][星星眼][呲牙][打call][喜欢][笑哭]",
+          "origin": "评论",
+          "ctime": "2025-02-10 22:07"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Advanced Fireworks Blueprint System（Niagara）",
+          "type": "特效",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://www.cgtall.com/17226.html",
+          "officialUrl": "https://www.fab.com/listings/8a557c6f-5818-4a92-bc80-6fa196da7a52",
+          "thirdParty": true,
+          "note": "复核：对应 SERLO 的 Advanced Fireworks System VFX，Fab 标价 $399.89，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/es-es/search?tags=firework",
+            "priceNote": "$399.89（Fab 标价，50% 折扣时 $199.94）",
+            "channels": [
+              "Fab 站内搜索 tags=firework",
+              "UnrealAll 商品索引（指向原 Fab 链接）",
+              "cgtall 转载页",
+              "Google/Bing"
+            ],
+            "note": "复核：对应 SERLO 的 Advanced Fireworks System VFX，Fab 标价 $399.89，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 10,
+      "favorites": 19
+    },
+    {
+      "id": "bv1wedvbneff",
+      "bvid": "BV1weDVBNEFF",
+      "aid": 116350513054427,
+      "url": "https://www.bilibili.com/video/BV1weDVBNEFF",
+      "title": "免费白嫖！UE4/5通用单轮飞天摩托，带粒子音效+动漫描边，4套材质随心换",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 561,
+      "publishedAt": "2026-04-15",
+      "keyword": "UE 免费 蓝图",
+      "desc": "兄弟们！今天直接端上硬菜——单轮飞天摩托MonoWheel Bike！一个轮子就能跑，还能原地升空，科幻味儿直接拉满！\n\n⚡ 获取方式：评论区打“单轮”，一键三连，UP主直接甩云盘，永久免费！\n\n🔥 为什么说它是载具区天花板？\n✅ 双形态切换：陆地漂移＋空中喷射，一键变形，帅到没朋友\n✅ 4套PBR材质＋颜色遮罩，黑红赛博、白蓝EVA、动漫描边随你染\n✅ 全套动画：上车、下车、骑行、飞行，UE4/5双骨架直接套，5分钟集成\n✅ 粒子＋音效：扬尘、尾焰、引擎轰鸣，开箱即用，氛围感直接拉满\n✅ 多人复制已开，服务端/客户端同步，开黑不翻车\n\n💡 技术小贴士\n- 基于Character类，不是Vehicle，AI兼容更丝滑，物理稳如老狗\n- 4.22-4.27 & 5.0-5.7 全版本通杀，Windows一键导入\n- 性能友好：低模＋LOD，飞行/非飞行双版本，低配机也能冲\n\n想让你的关卡瞬间拥有《赛博2077》同款回头率？评论区“单轮”刷起来，三连安排，资源今晚统一发！冲！\n\n\n\n\n\n\n\n\n\n\n\n下载地址: 【超级会员V9】通过百度网盘分享的文件：MonoWheel Bike.rar\n链接：https://pan.baidu.com/s/1yQtPFM__0BfscQgD3CEG7A?pwd=e572\n提取码：e572",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "星野琳子w",
+          "like": 0,
+          "text": "单轮",
+          "origin": "评论",
+          "ctime": "2026-04-15 19:58"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "MonoWheel Bike（单轮飞天摩托）",
+          "type": "载具",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1yQtPFM__0BfscQgD3CEG7A?pwd=e572",
+          "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/monowheel-bike",
+          "thirdParty": true,
+          "note": "复核：Sean Dachtler 的 MonoWheel Bike 在 Fab 卖家页标 $11.99（折后 $8.39），判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.fab.com/ko/sellers/Sean%20Dachtler",
+            "priceNote": "$11.99（Fab 标价，30% 折扣时 $8.39）",
+            "channels": [
+              "Fab 卖家页 Sean Dachtler",
+              "UE Marketplace 商品页",
+              "Fab 站内搜索",
+              "B 站视频简介"
+            ],
+            "note": "复核：Sean Dachtler 的 MonoWheel Bike 在 Fab 卖家页标 $11.99（折后 $8.39），判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 21,
+      "favorites": 32
+    },
+    {
+      "id": "bv1hedvbnepw",
+      "bvid": "BV1HeDVBNEpw",
+      "aid": 116350513119345,
+      "url": "https://www.bilibili.com/video/BV1HeDVBNEpw",
+      "title": "免费领！UE5神级网格建造系统，地形自适应+资源管理",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 2152,
+      "publishedAt": "2026-04-11",
+      "keyword": "UE 免费 蓝图",
+      "desc": "兄弟们！今天直接上硬货——Grid-Based Builder，地表最强网格建造框架，没有之一！\n\n⚡ 获取姿势：评论区打出“网格”，一键三连秒发，冲！\n\n🔥 为什么说它是天花板？\n✅ 纯蓝图！零C++也能看懂改爽\n✅ 网格尺寸≈无限*，想造多大就多大\n✅ 地形高差、贴草/石头表面自动识别，放错位置直接红线警告\n✅ 资源系统：造建筑扣资源，拆建筑返资源，UI动画丝滑到爆\n✅ 鼠标一拖垒城墙，按住左键“喷漆”铺地板，效率拉满\n✅ 支持Runtime+编辑器双模式，关卡策划也能秒摆城\n✅ 自带血条、阵营描边、伤害系统，RTS味瞬间对\n✅ 1.1新版追加斜墙、对角路，复杂形状随便盘\n\n🎯 适用场景\n• RTS/城建/塔防/战棋，想干啥都行\n• 快速出DEMO给投资人/导师看，效果炸裂\n• 毕业设计、GameJam、独立开发，省下造轮子时间专心玩玩法\n\n💡 技术参数\nUE4.26-4.27 & UE5.0-5.7全兼容，Windows/Mac/Linux通用，开箱即用。\n\n兄弟们，这么香的免费神器不盘白不盘！评论区“网格”刷起来，三连走起，资源立刻送到你手上！冲鸭！\n\n\n\n\n\n\n\n\n\n\n\n下载地址: 【超级会员V9】通过百度网盘分享的文件：Grid Based Builder 5.5.rar\n链接：https://pan.baidu.com/s/1-5VMGYAVEyRdcEL9WQHbjQ?pwd=e572\n提取码：e572",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "孤小万",
+          "like": 1,
+          "text": "网格",
+          "origin": "评论",
+          "ctime": "2026-04-13 10:41"
+        },
+        {
+          "user": "天野哲雄丶",
+          "like": 1,
+          "text": "网格",
+          "origin": "评论",
+          "ctime": "2026-04-12 21:58"
+        },
+        {
+          "user": "zacklocx",
+          "like": 1,
+          "text": "网格",
+          "origin": "评论",
+          "ctime": "2026-04-12 21:19"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Grid-Based Builder（网格建造系统）",
+          "type": "蓝图",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1-5VMGYAVEyRdcEL9WQHbjQ?pwd=e572",
+          "officialUrl": "https://www.fab.com/listings/1da64f6d-cdc9-4dee-8fb2-7b67ea0165cf",
+          "thirdParty": true,
+          "note": "复核：Andrew Esenin 的 Grid-Based Builder，Fab 标价 $19.99，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://www.unrealengine.com/marketplace/zh-CN/product/grid-based-builder",
+            "priceNote": "$19.99（Fab 标价）",
+            "channels": [
+              "Fab 商品页直连",
+              "UE Marketplace 商品页",
+              "Fab 站内搜索",
+              "第三方转载站（getasset）"
+            ],
+            "note": "复核：Andrew Esenin 的 Grid-Based Builder，Fab 标价 $19.99，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 104,
+      "favorites": 207
+    },
+    {
+      "id": "bv1ylkvz3e7r",
+      "bvid": "BV1yLKVz3E7R",
+      "aid": 114738423926968,
+      "url": "https://www.bilibili.com/video/BV1yLKVz3E7R",
+      "title": "【爆款福利】一键三连！虚幻引擎 5.5+ wParallax极品视差贴图免费分享！",
+      "up": "青蛙频道",
+      "upMid": 12191186,
+      "views": 1713,
+      "publishedAt": "2025-06-24",
+      "keyword": "UE 免费 材质",
+      "desc": "重磅福利！想要你的虚幻引擎场景更逼真？千万别错过这套wParallax高品质视差贴图EXR资源包！配套定制着色器，轻松实现可隐藏的中间层和窗帘层，创建更长的视差空间无扭曲，还有昼夜切换效果，2K分辨率，让你的作品细节拉满！现在免费分享给大家，B站专属福利，求一键三连支持！\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n通过网盘分享的文件：wParallax Retail I UE5.5.rar\n链接: https://pan.baidu.com/s/1Yd4TlRkKrU1DbS6GAlXauw?pwd=15h7 提取码: 15h7",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [
+        {
+          "user": "胖土星",
+          "like": 1,
+          "text": "这个也是挺牛的",
+          "origin": "评论",
+          "ctime": "2025-07-13 12:12"
+        },
+        {
+          "user": "子曰-无语",
+          "like": 0,
+          "text": "已三联 求分享",
+          "origin": "评论",
+          "ctime": "2026-02-25 13:12"
+        },
+        {
+          "user": "heheruishi",
+          "like": 0,
+          "text": "已三联 求分享",
+          "origin": "评论",
+          "ctime": "2025-07-22 10:55"
+        }
+      ],
+      "commentStatus": "已获取（热门评论前5条）",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "wParallax Retail I（UE5.5 视差贴图）",
+          "type": "材质",
+          "free": false,
+          "status": "paid",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": "https://pan.baidu.com/s/1Yd4TlRkKrU1DbS6GAlXauw?pwd=15h7",
+          "officialUrl": "https://www.fab.com/listings/ff1240c0-57af-4055-b219-14bb9015a9f0",
+          "thirdParty": true,
+          "note": "复核：wParallax Retail I 在 Fab 许可区间 $24.99–$49.99，作者站 Retail 标 Buy $39，判定已收费。",
+          "resourceId": null,
+          "recheck": {
+            "at": "2026-11-04",
+            "verdict": "paid",
+            "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+            "evidenceUrl": "https://wparallax.com/",
+            "priceNote": "$24.99–$49.99（Fab 许可区间；作者站 Retail $39）",
+            "channels": [
+              "Fab 商品页直连",
+              "UE Marketplace 商品页（$34.99）",
+              "wParallax 作者站",
+              "B 站视频简介"
+            ],
+            "note": "复核：wParallax Retail I 在 Fab 许可区间 $24.99–$49.99，作者站 Retail 标 Buy $39，判定已收费。"
+          },
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "likes": 89,
+      "favorites": 147
+    },
+    {
+      "id": "bv1r9o2yrek9",
+      "bvid": "BV1R9o2YrEk9",
+      "aid": 114217239710345,
+      "url": "https://www.bilibili.com/video/BV1R9o2YrEk9",
+      "title": "No.3_利用UE引擎制作3Dlayout",
+      "up": "度风玘qi",
+      "upMid": 3979422,
+      "views": 266,
+      "publishedAt": "2025-03-24",
+      "keyword": "UE 免费 角色 动画",
+      "desc": "No.3：利用UE制作3Dlayout\n\n本期课程主要讲解如何下载安装UE，如何利用UE进行3Dlayout制作。\n\n引擎官方下载地址：https://www.unrealengine.com/zh-CN/download\n\n需要注册。安装好后，需要安装引擎版本。\n\n因为我此次制作动画用的资产全是4.26的版本，所以我下载了4.26.\n\n点击起启动，引擎运行。\n\n选game，然后选第三人称，下面是设置文件保存路径，和项目名称，设置好之后，即可下载。\n\n\n这里我已经建好项目，就不点创建了。\n\n然后是寻找我们需要的资产。\n\n在UE最新的fab网站中，左侧分类栏，选择3D模型，角色与生物，人类，价格选择免费。可以找到自己想要的模型。\n\n我这里用的是paragon的资产。可以从网页上看到，已保存在我的库中。\n\n添加好后，回到UE，找到添加好的资产，然后添加到自己建好的项目中。\n\n\n在启动好的UE项目里，content目录下，即可看到paragon资产的文件夹。\n\n点开文件夹，就可以探索里面的内容啦。\n\n里面有制作好的角色游戏蓝图。绑定文件，以及动画。\n\n下面我们利用这些免费资产，进行3Dlay的设计与制作。\n\n这里关于UE内的操作，类似于游戏游玩操作。可以鼠标右键，按住，用WASD四个键盘按钮进行前后左右视图的移动。鼠标按住右键，可旋转。\nQE是上下平移、\n\n然后再all classes中，找到BP sky 天空球。拉入场景内，将天光吸附我们拖入的平行光。即可获得当前看到的效果。\n\n这里我先利用方块平面等基本元素，搭建简单的战斗环境。\n\n然后将资产模型拖入场景，获得当前视图中的效果。\n\n新建一个我们做动画的文件夹，在文件夹中新建一个SEQ，动画定序期。\n\n打开SEQ，选择模型，按S键，即K帧快捷键，即可将模型添加到定序器中。\n\n在定序器中，点击角色后面放的+号，在animation菜单中，可选择已有的动画。\n\n点击摄像机按钮，可在当前视图添加摄像机。\n\n在窗口菜单中，添加一个新的窗口，把窗口设置为定序器模式，就可实时监测定序器中摄像机的图像。\n\n\n在右侧大视图中，通过位移，S key帧，进行摄像机动画的制作。\n\n这里我为了方便大家学习，实在一个显示器中完成的。\n\n建议双显示器或者多显示器。监视窗口独占一个显示器，方便观察细节。",
+      "descStatus": "已获取（Bilibili view 接口）",
+      "descFetchedAt": "2026-11-03",
+      "comments": [],
+      "commentStatus": "无热门评论",
+      "commentsFetchedAt": "2026-11-03",
+      "subtitles": [],
+      "subtitleStatus": "未获取（匿名接口字幕列表为空，需登录 Cookie）",
+      "subtitleFetchedAt": "2026-11-03",
+      "mentions": [
+        {
+          "name": "Paragon 角色资产（Epic Games 免费）",
+          "type": "角色",
+          "free": true,
+          "status": "verified",
+          "origin": "简介",
+          "ts": null,
+          "rawUrl": null,
+          "officialUrl": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+          "thirdParty": false,
+          "note": "Epic 官方 Paragon 角色免费；视频以 Paragon 资产做 3D layout，具体角色为 Sparrow。",
+          "resourceId": "fab-paragon-sparrow",
+          "recheck": {
+            "at": "2026-11-03",
+            "verdict": "free",
+            "method": "公开页面人工核对（证据缓存）",
+            "evidenceUrl": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+            "priceNote": "免费",
+            "channels": null,
+            "note": "Epic 官方免费 Paragon 角色"
+          }
+        }
+      ],
+      "likes": 7,
+      "favorites": 12
+    }
+  ]
+}

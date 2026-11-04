@@ -1,0 +1,545 @@
+{
+  "generatedAt": "2026-11-04",
+  "note": "公开页面人工核对结果；recheck.js 会优先应用本文件，未命中再做实时 HTTP 检查。Fab 直连 403/风控不绕过。",
+  "entries": [
+    {
+      "name": "Road Pack Set 01 / LowPoly / GameReady",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.renderhub.com/mid-poly-models/street-elements",
+      "priceNote": "$10–15（第三方商店）",
+      "note": "复核：无官方 Fab 页；RenderHub/TurboSquid 第三方售价约 $10–15，判定已收费。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Lowpoly Style Desert Pack",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/b8000576-9fa1-459f-8e15-aa2c63550781",
+      "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/lowpoly-style-desert-pack/questions",
+      "priceNote": "$14.99–29.99",
+      "note": "复核：原 UE Marketplace 页面显示 $29.99，促销 $14.99，判定已收费。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Gridline Blueprints",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/7c0c9b3e-2a9e-4524-b152-d8158db67bfd",
+      "evidenceUrl": "https://helixthehare.github.io/",
+      "priceNote": "未获取",
+      "note": "复核：作者页写明「Questions before buying?」，为 Fab 付费插件；具体价格未获取。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "101+ Everyday Props",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.digitalgeekland.com/collections/unreal-engine",
+      "priceNote": "€11.90（第三方商店）",
+      "note": "复核：第三方商店标价 €11.90，判定已收费；官方页面未获取。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Interactive Foliage Physics",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab",
+      "evidenceUrl": "https://www.fab.com/listings/0c83ee1d-aee8-45ba-9d11-757827d28bab",
+      "priceNote": "旧版免费",
+      "note": "复核：Fab 页面可打开且标注 Free（4.4 分）；旧版免费但已停更，新版 Lite $4.99 / Pro $119.99。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Flight And Grapple",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/32f8ef7e-a581-4cfd-89e1-10bd40f6e465",
+      "evidenceUrl": "https://www.fab.com/sellers/AYaGuaiStore",
+      "priceNote": "£4.99 起（Fab 卖家页 From £4.99）",
+      "channels": [
+        "Fab 商品页直连",
+        "Fab 卖家页 AYaGuaiStore",
+        "Epic 开发者论坛产品讨论帖"
+      ],
+      "note": "复核：AYaGuaiStore 卖家页标注 FlightAndGrapple「From £4.99」，商品页有 Buy now，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Skeleton",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/8e5c5f8f-993a-4c76-b53c-b48bac9766ee",
+      "evidenceUrl": "https://www.fab.com/sellers/Feyloom",
+      "priceNote": "免费（Fab 页面 Free + Download）",
+      "channels": [
+        "Fab 商品页直连",
+        "Fab 商品页?lang=en",
+        "作者 Feyloom 卖家页",
+        "Fab 站内搜索"
+      ],
+      "note": "复核：该链接实际为 Feyloom 的 Skeleton Necromancer（Skeleton Pack 单角色），页面当前明确标注 Free 且提供 Download，判定免费可获取。"
+    },
+    {
+      "name": "[CR] [LQ] Modular 005 MilitaryA [PACK]",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/c6648c13-095f-47a8-944e-93c8bb97f567",
+      "evidenceUrl": "https://www.fab.com/ja/sellers/UNDERKING",
+      "priceNote": "免费",
+      "note": "复核：Fab 商品页标注 Free；卖家页显示该系列最低价「無料」，判定免费可用。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Free Shrubs Pack (Ultra Realistic Wind)",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657",
+      "evidenceUrl": "https://www.fab.com/listings/7ca465ab-fb9c-4d6b-bddb-82c20f604657",
+      "priceNote": "免费",
+      "note": "复核：Fab 标注 Free，4.9/21，11 种 Nanite 灌木，1.3 GB（UE5.4），判定免费可用。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Simple Blueprint Class",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e",
+      "evidenceUrl": "https://www.fab.com/listings/54f5e66d-98ed-424d-b2dd-1188d78eb69e",
+      "priceNote": "免费",
+      "note": "复核：商品实际名为 Simple Blueprint Class，Fab 标注 Free，5.0/4，判定免费可用。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "VFX",
+      "verdict": "removed",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.fab.com/listings/691fdb93-4005-4ff3-b5ee-988bbe4d7b40",
+      "priceNote": null,
+      "note": "复核：Fab 页面返回「Sorry, we couldn’t find that page」，判定已下架（404）。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Door System",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72",
+      "evidenceUrl": "https://www.fab.com/listings/6e79a6ea-cc70-4588-b612-bf27042d2e72?lang=en",
+      "priceNote": "未获取（页面有 Buy now / Add to cart，未显示具体金额）",
+      "channels": [
+        "Fab 商品页直连",
+        "Fab 商品页?lang=en",
+        "作者 DeadWire 卖家页（页面空壳）",
+        "Fab 站内搜索"
+      ],
+      "note": "复核：DeadWire 的 Door System，11 种门；商品页有 Buy now / Add to cart 且无 Free，判定已收费，价格未获取。"
+    },
+    {
+      "name": "Quest System",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/97225ffd-a042-4522-b72e-38a3926a25d4",
+      "evidenceUrl": "https://github.com/Ebrahim-Mottaghi-Rezaei/Quest-System",
+      "priceNote": "未获取",
+      "note": "复核：Fab 显示 Buy now，判定已收费；同页 GitHub 仓库可公开访问，但未声明 LICENSE。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "【Volume.2】Material & Texture & SBSAR - 32 Set CompletePack",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4",
+      "evidenceUrl": "https://www.fab.com/listings/a2c3c9e7-83ad-4ebe-b54d-33b992b271b4",
+      "priceNote": "未获取",
+      "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；实际商品名为 Volume.2 材质贴图 CompletePack。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Easy Breath Audio Component",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+      "evidenceUrl": "https://www.fab.com/listings/f395d25e-534b-4c3b-b346-f9e92045fd1c",
+      "priceNote": "¥0–35.59",
+      "note": "复核：页面显示 From free to ¥35.59，含付费档，不再视为完全免费。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "KAWAII ANIMATIONS 100",
+      "verdict": "unverifiable",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.bilibili.com/video/BV1wVnozYEWa",
+      "note": "最后一轮作者名反查（2026-11-04）：Fab 无同名商品；搜索引擎仅命中爱给网/淘宝转载，ArtStation 与 Discord 公开检索均无作者或原始许可信息，结束追溯，保持 unverifiable。",
+      "channels": [
+        "Fab 站内搜索",
+        "搜索引擎原名/特征检索",
+        "ArtStation 公开检索",
+        "Discord 公开频道检索",
+        "作者站/原始发布站"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "Scifi Railroad Terminal Facility (Nanite)",
+      "verdict": "unverifiable",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.bilibili.com/video/BV1kZuRzeErg",
+      "note": "最后一轮作者名反查（2026-11-04）：仅 asset001 第三方转载；ArtStation、Discord 与作者站检索未定位原作者，无法确认原始许可，结束追溯，保持 unverifiable。",
+      "channels": [
+        "Fab 站内搜索",
+        "搜索引擎原名/特征检索",
+        "ArtStation 公开检索",
+        "Discord 公开频道检索",
+        "作者站/原始发布站"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "低多边形发电厂工厂模块",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/b6a85679-47f0-4f59-aa6d-da9d5f59aee5",
+      "evidenceUrl": "https://www.fab.com/listings/b6a85679-47f0-4f59-aa6d-da9d5f59aee5",
+      "priceNote": "$29.99（Fab 现价，2026-05 限免已结束）",
+      "channels": [
+        "B 站视频简介（标注 Epic 5 月限免）",
+        "Fab 商品页直连",
+        "Fab 站内搜索",
+        "Nimikko 作者站"
+      ],
+      "note": "复核：对应 Nimikko 的 Modular Old Power Plant - 65 Assets；2026-05 Fab 限时免费已结束，当前标价 $29.99，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "300+ 纹理镜头光晕特效包",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/0e920fbc-fb78-4331-a4e1-878dc3504bad",
+      "evidenceUrl": "https://forums.unrealengine.com/t/toxic-stock-lens-flare-vfx/2674001",
+      "priceNote": "₱2,108.75–₱10,546.64（Fab 页面显示区间，未换算）",
+      "channels": [
+        "Epic 开发者论坛产品帖（作者 TXC STOCK）",
+        "Fab 商品页直连",
+        "Fab 站内搜索 tags=flare"
+      ],
+      "note": "复核：对应 TXC STOCK 的 LENS FLARE VFX（300+ 纹理）；2026-05 限免已结束，商品页有 Buy now，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "蒸汽朋克机械剑齿虎角色",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/3413113f-147a-4fc9-bd9f-7c543934969a",
+      "evidenceUrl": "https://www.fab.com/listings/3413113f-147a-4fc9-bd9f-7c543934969a",
+      "priceNote": "未获取（页面价格被打码，仅有 Buy now）",
+      "channels": [
+        "B 站同期限免视频（BV1g3RsBsEgB）",
+        "Fab 商品页直连",
+        "Fab 站内搜索",
+        "Google/Bing 多形态搜索"
+      ],
+      "note": "复核：对应 Crazy Vertex 的 Steampunk Mechanical Creature（含动画/VFX）；2026-05 限免已结束，当前有 Buy now，判定已收费，价格未获取。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Paris - Fontaine Saint-Michel（巴黎圣米歇尔喷泉场景）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.cgtrader.com/3d-models/scanned/various/fountain-saint-michel-photogrammetry",
+      "evidenceUrl": "https://www.cgtrader.com/3d-models/scanned/various/fountain-saint-michel-photogrammetry",
+      "priceNote": "$30（TurboSquid）/ $40（CGTrader 一次性买断）",
+      "channels": [
+        "CGTrader 商品页",
+        "TurboSquid 商品页",
+        "Fab 站内搜索",
+        "B 站视频简介（网盘分享）"
+      ],
+      "note": "复核：原作者 NicolasDiolez 的 Fountain Saint-Michel 为付费扫描模型（CGTrader $40 / TurboSquid $30）；B 站网盘为第三方转载，原始许可为付费，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "UE 写实场景合集（村庄/农场，具体名称未获取）",
+      "verdict": "unverifiable",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.bilibili.com/video/BV1H1SwBPEXM",
+      "note": "最后一轮作者名反查（2026-11-04）：以视频标题、UP 名、网盘文件名反查，未命中作者主页/ArtStation/Discord/原始发布站，结束追溯，保持 unverifiable。",
+      "channels": [
+        "Fab 站内搜索",
+        "搜索引擎原名/特征检索",
+        "ArtStation 公开检索",
+        "Discord 公开频道检索",
+        "作者站/原始发布站"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "风格化河边小屋环境",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/house-along-the-river",
+      "evidenceUrl": "https://link.unrealengine.com/marketplace/en-US/product/house-along-the-river/questions",
+      "priceNote": "$49.99（官方商品页标价，USD）",
+      "channels": [
+        "Fab/UE Marketplace 商品页",
+        "搜索引擎（英文原名 + 特征）",
+        "ArtStation/Discord 作者线索核对"
+      ],
+      "note": "最后一轮作者名反查命中：原名 House Along the River，作者 StylArts；官方商品页写明 73 Unique Meshes、$49.99、UE 5.3–5.4，与 B 站简介 73 几何体/271 贴图一致。判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "卡通山坡小屋",
+      "verdict": "unverifiable",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.bilibili.com/video/BV1HVKnzdEcp",
+      "note": "最后一轮作者名反查（2026-11-04）：检索到 StylArts 的 Stylized Azure Hillside（93 Assets）与「93 个几何体」接近，但商品页未列 84 贴图与房屋明细，证据不足；ArtStation/Discord 未给出作者确认，保持 unverifiable。",
+      "channels": [
+        "Fab 站内搜索",
+        "搜索引擎原名/特征检索",
+        "ArtStation 公开检索",
+        "Discord 公开频道检索",
+        "作者站/原始发布站"
+      ]
+    },
+    {
+      "name": "UPNodePresets",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+      "evidenceUrl": "https://www.fab.com/listings/8e0457f2-cd4d-405e-8b8b-1c7e940ff4d0",
+      "priceNote": "未获取",
+      "note": "复核：商品页显示 Buy now/Add to cart，判定已收费；具体价格未获取。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "IMPERFECTER - Post Process Toolkit",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.fab.com/category/tool-and-plugin/engine-tools",
+      "priceNote": "₹7,968.65 起",
+      "note": "复核：Fab 分类页显示起售价 ₹7,968.65，判定已收费。",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "name": "虚幻引擎5 动画库合集（具体名称未获取）",
+      "verdict": "unverifiable",
+      "free": false,
+      "officialUrl": null,
+      "evidenceUrl": "https://www.bilibili.com/video/BV1pq2AYMELz",
+      "note": "最后一轮作者名反查（2026-11-04）：以「Animations Library / 动画库」+ UP 名反查，命中均为泛称与转载，无法锁定具体作者与许可，结束追溯，保持 unverifiable。",
+      "channels": [
+        "Fab 站内搜索",
+        "搜索引擎原名/特征检索",
+        "ArtStation 公开检索",
+        "Discord 公开频道检索",
+        "作者站/原始发布站"
+      ]
+    },
+    {
+      "name": "Realistic True First-Person Movement Template V1",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+      "evidenceUrl": "https://www.fab.com/listings/808d84a0-716b-4197-a778-251d0c1f094c",
+      "priceNote": "免费–Rp 297,927",
+      "note": "个人版免费，专业版付费",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "UI Material Lab",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab",
+      "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/ui-material-lab",
+      "priceNote": "免费",
+      "note": "Epic 官方免费示例",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "name": "Paragon 角色资产（Epic Games 免费）",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "evidenceUrl": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "priceNote": "免费",
+      "note": "Epic 官方免费 Paragon 角色",
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "UB Auto Landscape Material（含 PCG 模板）",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://ko-fi.com/s/8e038bb081",
+      "evidenceUrl": "https://ko-fi.com/s/8e038bb081",
+      "priceNote": "免费（作者 Ko-fi 商品页，视频标题标注 FREE）",
+      "channels": [
+        "作者 Ko-fi 商品页",
+        "B 站视频简介与标题",
+        "Fab 站内搜索",
+        "Google/Bing"
+      ],
+      "note": "复核：作者 Ko-fi 商品页可打开且描述完整，视频标题/简介均标注 FREE Auto Landscape Material，判定免费可获取；页面未显示价格字段，以作者自述为准。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Female Animation Pack Mocap",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/66115ef2-8db3-442d-a331-d65c8c7e011d",
+      "evidenceUrl": "https://www.unrealengine.com/marketplace/en-US/product/female-animation-pack-mocap",
+      "priceNote": "$19.99（Fab 许可区间 $14.99–$19.99）",
+      "channels": [
+        "Fab 商品页直连",
+        "UE Marketplace 商品页",
+        "Mocap Factory 卖家页",
+        "Fab 站内搜索"
+      ],
+      "note": "复核：Mocap Factory 的 Female Animation Pack Mocap，商品页标价 $19.99，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Survival Sound Effects（240 种生存音效）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/8f38ed87-c99a-4799-891c-36dfd9509eef",
+      "evidenceUrl": "https://www.fab.com/listings/8f38ed87-c99a-4799-891c-36dfd9509eef",
+      "priceNote": "未获取（页面有 Buy now / Add to cart）",
+      "channels": [
+        "Fab 商品页直连",
+        "Gravity Sound 卖家页",
+        "Epic Stock Media 商品页",
+        "cgalpha 转载页"
+      ],
+      "note": "复核：Gravity Sound 的 Survival Sound Effects（240 条），Fab 页面有 Buy now / Add to cart，判定已收费，具体金额未获取。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Essential Ambience SFX Pack (FREE)",
+      "verdict": "free",
+      "free": true,
+      "officialUrl": "https://www.fab.com/listings/c4e9f60e-f1c1-433c-8b1b-fb5867da0d64",
+      "evidenceUrl": "https://www.fab.com/sellers/Sound%20Kajiya",
+      "priceNote": "免费（Fab 卖家页 From Free）",
+      "channels": [
+        "Fab 卖家页 Sound Kajiya",
+        "Fab 商品页",
+        "Unity Asset Store（已下架，仅作旁证）",
+        "第三方集合站"
+      ],
+      "note": "复核：Sound Kajiya 的 Essential Ambience SFX 在 Fab 卖家页标 From Free，商品页可打开，判定免费可获取。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Harvesting Sound FX Pack（Ovani Sound，196 个音效）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://ovanisound.com/collections/sfx-genre-foley",
+      "evidenceUrl": "https://ovanisound.com/collections/sfx-genre-foley",
+      "priceNote": "S$26–27（Ovani Sound 官方商店）",
+      "channels": [
+        "Ovani Sound 官方商店",
+        "Ovani Sound 商品合集页",
+        "asset001 转载页",
+        "Fab 站内搜索"
+      ],
+      "note": "复核：Ovani Sound 官方商店 Harvesting Sound FX Pack 标价 S$26–27，判定已收费；cgalpha 仅为第三方转载。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Advanced Fireworks Blueprint System（Niagara）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/8a557c6f-5818-4a92-bc80-6fa196da7a52",
+      "evidenceUrl": "https://www.fab.com/es-es/search?tags=firework",
+      "priceNote": "$399.89（Fab 标价，50% 折扣时 $199.94）",
+      "channels": [
+        "Fab 站内搜索 tags=firework",
+        "UnrealAll 商品索引（指向原 Fab 链接）",
+        "cgtall 转载页",
+        "Google/Bing"
+      ],
+      "note": "复核：对应 SERLO 的 Advanced Fireworks System VFX，Fab 标价 $399.89，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "MonoWheel Bike（单轮飞天摩托）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.unrealengine.com/marketplace/en-US/product/monowheel-bike",
+      "evidenceUrl": "https://www.fab.com/ko/sellers/Sean%20Dachtler",
+      "priceNote": "$11.99（Fab 标价，30% 折扣时 $8.39）",
+      "channels": [
+        "Fab 卖家页 Sean Dachtler",
+        "UE Marketplace 商品页",
+        "Fab 站内搜索",
+        "B 站视频简介"
+      ],
+      "note": "复核：Sean Dachtler 的 MonoWheel Bike 在 Fab 卖家页标 $11.99（折后 $8.39），判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "Grid-Based Builder（网格建造系统）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/1da64f6d-cdc9-4dee-8fb2-7b67ea0165cf",
+      "evidenceUrl": "https://www.unrealengine.com/marketplace/zh-CN/product/grid-based-builder",
+      "priceNote": "$19.99（Fab 标价）",
+      "channels": [
+        "Fab 商品页直连",
+        "UE Marketplace 商品页",
+        "Fab 站内搜索",
+        "第三方转载站（getasset）"
+      ],
+      "note": "复核：Andrew Esenin 的 Grid-Based Builder，Fab 标价 $19.99，判定已收费。"
+    },
+    {
+      "checkedAt": "2026-11-04",
+      "method": "公开页面人工核对（第二轮：商品页/卖家页/作者站/搜索引擎）",
+      "name": "wParallax Retail I（UE5.5 视差贴图）",
+      "verdict": "paid",
+      "free": false,
+      "officialUrl": "https://www.fab.com/listings/ff1240c0-57af-4055-b219-14bb9015a9f0",
+      "evidenceUrl": "https://wparallax.com/",
+      "priceNote": "$24.99–$49.99（Fab 许可区间；作者站 Retail $39）",
+      "channels": [
+        "Fab 商品页直连",
+        "UE Marketplace 商品页（$34.99）",
+        "wParallax 作者站",
+        "B 站视频简介"
+      ],
+      "note": "复核：wParallax Retail I 在 Fab 许可区间 $24.99–$49.99，作者站 Retail 标 Buy $39，判定已收费。"
+    }
+  ],
+  "meta": {
+    "updatedAt": "2026-11-04",
+    "round2": "2026-11-04 对 23 条待核实线索做第二轮：Fab 商品页/卖家页直连、作者站、第三方商店与搜索引擎交叉核对；Fab 可直连时以页面 Free/Buy now 为准。"
+  }
+}

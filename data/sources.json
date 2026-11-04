@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "siteName": "UE 资源与工具索引",
+    "tagline": "按实际开发用途重排的 Unreal Engine 免费资源、付费资源与工具插件清单",
+    "fetchedAt": "2026-11-04",
+    "timezone": "Asia/Shanghai",
+    "schemaVersion": 1,
+    "priceNote": "Fab 价格为中国区税前 CNY，会随地区、汇率与折扣变化；购买前以商品页为准。",
+    "integrityNote": "价格、评分、评价数与许可均取自页面当时实际内容；抓不到的一律标「未获取」，不做估算。",
+    "dataFiles": ["data/resources.json", "data/tools.json", "data/github.json", "data/epic-samples.json", "data/categories.json", "data/sources.json", "data/bilibili.json", "data/bilibili-pending.json", "data/recheck-evidence.json"],
+    "buildCommand": "node scripts/build.js",
+    "pageCommand": "node scripts/build.js --page",
+    "imageRule": "assets/img/<分类ID>/<条目ID>.jpg",
+    "howToUpdate": [
+      "在 data/resources.json / data/tools.json / data/github.json 中新增条目（字段见 README 的 Schema）。",
+      "把截图保存为 assets/img/<分类ID>/<条目ID>.jpg（JPEG/PNG/WebP 均可）。",
+      "运行 node scripts/build.js：校验字段、断图、空链接、分片完整性、hash 路由唯一与条目内联，并重算统计、重建 data/*.js 分片与 assets.json。",
+      "刷新 index.html 即可；index.html 本身不需要改动。只有修改 src/ 模板、样式或渲染脚本时才运行 node scripts/build.js --page。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "fab",
+      "name": "Fab（Epic 市场）",
+      "url": "https://www.fab.com/channels/unreal-engine",
+      "license": "各商品许可不同，以商品页为准",
+      "note": "含原 UE Marketplace 内容；付费项价格为中国区税前 CNY，评分/评价数来自搜索结果卡片；需 Epic 账号。"
+    },
+    {
+      "id": "epic-samples",
+      "name": "Epic 官方示例（Fab）",
+      "url": "https://www.fab.com/sellers/Epic%20Games",
+      "license": "UE 限定内容 / 商品页为准",
+      "note": "Lyra、City Sample 等官方免费示例；多数为「仅限 UE 产品使用」，体积大。"
+    },
+    {
+      "id": "quixel",
+      "name": "Quixel Megascans / Megaplants（Fab）",
+      "url": "https://www.fab.com/sellers/Quixel%20Megascans",
+      "license": "Megascans 示例多为商品页 License terms 为 - / Fab Standard License；以商品页为准",
+      "note": "仅收录 UE 内免费可领取的示例工程与 Megaplants；需 Epic 账号；Megaplants 需 Procedural Vegetation Editor 与 Nanite Foliage（实验性）。"
+    },
+    {
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com",
+      "license": "CC0",
+      "note": "HDRI、PBR 贴图与模型，全部 CC0，可商用免署名；下载无需登录。"
+    },
+    {
+      "id": "ambientcg",
+      "name": "ambientCG",
+      "url": "https://ambientcg.com",
+      "license": "CC0",
+      "note": "PBR 贴图库，CC0；提供 1K–8K 包，游戏项目建议 1K/2K。"
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "url": "https://kenney.nl/assets",
+      "license": "CC0",
+      "note": "2D/3D 游戏素材包，CC0；ZIP 直下无需登录，3D 资产可能需要转换后进 UE。"
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "url": "https://opengameart.org",
+      "license": "混合（CC0 / CC-BY / OGA-BY / CC-BY-SA）",
+      "note": "逐条标注许可；需署名项必须在项目 Credits 中保留作者。"
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab（可下载 CC0）",
+      "url": "https://sketchfab.com",
+      "license": "CC0 Public Domain（仅收录可下载项）",
+      "note": "只收录 downloadable 且 CC0 的模型；下载通常需登录；扫描模型面数高，需减面。"
+    },
+    {
+      "id": "quaternius",
+      "name": "Quaternius",
+      "url": "https://quaternius.com",
+      "license": "CC0（官网逐包标注）",
+      "note": "免费低多边形模型与通用动画库；FBX/GLB/Blend，导入 UE 后需要重定向或转换。"
+    },
+    {
+      "id": "bilibili",
+      "name": "B 站信息源（视频简介 / 评论 / 字幕）",
+      "url": "https://www.bilibili.com",
+      "license": "仅作线索溯源，资源许可以官方页面为准",
+      "note": "不解析视频；只保留公开可获取的简介、热门评论与字幕状态。第三方网盘链接统一标「未核实安全性」。"
+    },
+    {
+      "id": "github",
+      "name": "GitHub（UE 插件 / 示例仓库）",
+      "url": "https://github.com",
+      "license": "各仓库 LICENSE 为准（MIT / Apache / GPL 等）",
+      "note": "星标数与最近更新来自 GitHub API；归档仓库已在备注标注；插件需与引擎版本匹配。"
+    }
+  ]
+}
